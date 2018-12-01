@@ -45,7 +45,7 @@ Set your prefered color scheme
 ##### Recommended Color Schemes
 
 * [One Dark](https://github.com/nathanbuchar/atom-one-dark-terminal/)
-* [Night Owl](https://github.com/joshcummingsdesign/mac-dev-env/blob/master/themes)
+* [Night Owl](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
 
 In iTerm2 go to `Preferences > Profiles > Colors` and add your theme under `Color Presets`
 
