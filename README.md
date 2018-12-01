@@ -36,21 +36,26 @@ Set your default user
 DEFAULT_USER=myusername
 ```
 
-### Zsh Agnoster Theme
+### Zsh Theme
 
-Download the Atom One Dark theme
+#### Colors
 
-https://github.com/nathanbuchar/atom-one-dark-terminal/
+Set your prefered color scheme
 
-In iTerm2 go to `Preferences > Profiles > Colors` and add One Dark to your `Color Presets`
+##### Recommended Color Schemes
 
-Download the Fira Mono font family
+* [One Dark](https://github.com/nathanbuchar/atom-one-dark-terminal/)
+* [Night Owl](https://github.com/joshcummingsdesign/mac-dev-env/blob/master/themes)
 
-https://github.com/powerline/fonts/
+In iTerm2 go to `Preferences > Profiles > Colors` and add your theme under `Color Presets`
+
+#### Powerline
+
+[Download the Fira Mono font family](https://github.com/powerline/fonts/)
 
 In iTerm2 go to `Preferences > Profiles > Text` and change the font to Fira Mono
 
-Change the theme in your `.zshrc`
+Change the theme in your `.zshrc` to agnoster
 
 ```sh
 ZSH_THEME="agnoster"
@@ -58,15 +63,12 @@ ZSH_THEME="agnoster"
 
 ### Zsh Plugins
 
-zsh-autosuggestions
+##### Recommended Plugins
 
-https://github.com/zsh-users/zsh-autosuggestions/
+* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/)
+* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/)
 
-zsh-syntax-highlighting
-
-https://github.com/zsh-users/zsh-syntax-highlighting/
-
-Add the plugins to your `.zshrc`
+Add plugins to your `.zshrc`
 
 ```sh
 plugins=(
@@ -76,16 +78,10 @@ plugins=(
 )
 ```
 
-## Zsh Aliases
+### Zsh Aliases
 
 ```sh
-# Show/hide all files
-alias showAll="defaults write com.apple.Finder AppleShowAllFiles TRUE; killall Finder"
-alias hideAll="defaults write com.apple.Finder AppleShowAllFiles FALSE; killall Finder"
-```
-
-```sh
-# Remove all .DS_Store files
+# Remove all .DS_Store files in a directory
 alias dstroy="find . -name '.DS_Store' -type f -delete"
 ```
 
@@ -127,29 +123,67 @@ https://github.com/creationix/nvm/
 
 Install a version of Node.js
 
-    $ nvm install 10.4.0
+    $ nvm install 11.13.0
 
 Set a default Node.js version
 
-    $ nvm alias default 10.4.0
+    $ nvm alias default 11.13.0
 
 ### Visual Studio Code
 
 https://code.visualstudio.com/
 
-Install the `One Dark Pro` extension and press `⌘K` then `⌘T` to swith themes
+#### Themes
+
+Install your desired theme and then press `⌘K` then `⌘T` to switch themes
+
+##### Recommended Themes
+
+* One Dark Pro
+* Night Owl
+
+##### Recommended Font
+
+* [Dank Mono](https://dank.sh/)
 
 #### Prettier
 
-Add the following options to your settings for Prettier
+##### Recommended settings
 
 ```json
 {
     "[javascript]": {
         "editor.formatOnSave": true
     },
-    "prettier.printWidth": 120,
-    "prettier.singleQuote": true
+    "[javascriptreact]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true
+    },
+    "prettier.singleQuote": true,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.printWidth": 100,
+}
+```
+
+#### Code Spell Checker
+
+##### Recommended settings
+
+```json
+{
+    "cSpell.enabledLanguageIds": [
+        "markdown",
+        "plaintext",
+        "text",
+        "yaml",
+        "yml"
+    ]
 }
 ```
 
@@ -160,7 +194,9 @@ Add the following options to your settings for Prettier
 * EditorConfig for VS Code
 * Jekyll Snippets
 * Jekyll Syntax Support
+* Jest
 * VS Code CSS Comments
+* vscode-styled-components
 
 ---
 
