@@ -44,9 +44,10 @@ Set your prefered color scheme
 
 ##### Recommended Color Schemes
 
+* [Oceanic Next](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
 * [One Dark](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
-* [Tomorrow Night](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
 * [Night Owl](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
+* [Tomorrow Night](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
 
 In iTerm2 go to `Preferences > Profiles > Colors` and add your theme under `Color Presets`
 
@@ -140,9 +141,10 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 
 ##### Recommended Themes
 
-* One Dark Pro
-* Tomorrow Night
+* Oceanic Next
+* One Dark
 * Night Owl
+* Tomorrow Night
 
 ##### Recommended Font
 
