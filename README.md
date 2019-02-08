@@ -125,11 +125,11 @@ https://github.com/creationix/nvm/
 
 Install a version of Node.js
 
-    $ nvm install 11.13.0
+    $ nvm install 11.9.0
 
 Set a default Node.js version
 
-    $ nvm alias default 11.13.0
+    $ nvm alias default 11.9.0
 
 ### Visual Studio Code
 
@@ -199,6 +199,7 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 * Jekyll Snippets
 * Jekyll Syntax Support
 * Jest
+* Rewrap
 * VS Code CSS Comments
 * vscode-styled-components
 
