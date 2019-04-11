@@ -42,12 +42,9 @@ DEFAULT_USER=myusername
 
 Set your prefered color scheme
 
-##### Recommended Color Schemes
+##### Recommended Color Scheme
 
-* [Oceanic Next](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
 * [One Dark](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
-* [Night Owl](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
-* [Tomorrow Night](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
 
 In iTerm2 go to `Preferences > Profiles > Colors` and add your theme under `Color Presets`
 
@@ -140,12 +137,9 @@ https://code.visualstudio.com/
 
 Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 
-##### Recommended Themes
+##### Recommended Theme
 
-* Oceanic Next
-* One Dark
-* Night Owl
-* Tomorrow Night
+* One Dark Pro
 
 ##### Recommended Font
 
@@ -173,6 +167,18 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
     "prettier.jsxBracketSameLine": true,
     "prettier.jsxSingleQuote": true,
     "prettier.printWidth": 100,
+}
+```
+
+#### Emmet
+
+##### Recommended settings
+
+```json
+{
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
 }
 ```
 
