@@ -96,7 +96,7 @@ Configure Git settings
     $ git config --global user.email "email@example.com"
     $ git config --global push.default simple
     $ git config --global core.editor "nano"
-    $ git config core.ignorecase false
+    $ git config --global core.ignorecase false
 
 ### SSH
 
