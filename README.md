@@ -203,6 +203,7 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 * change-case
 * Docker
 * EditorConfig for VS Code
+* GraphQL for VSCode
 * Jekyll Snippets
 * Jekyll Syntax Support
 * Jest
