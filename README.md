@@ -95,7 +95,7 @@ Configure Git settings
     $ git config --global user.name "myusername"
     $ git config --global user.email "email@example.com"
     $ git config --global push.default simple
-    $ git config --global core.editor "nano"
+    $ git config --global core.editor "vim"
     $ git config --global core.ignorecase false
 
 ### SSH
@@ -208,6 +208,7 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 * Jekyll Syntax Support
 * Jest
 * Rewrap
+* Vim
 * VS Code CSS Comments
 * vscode-styled-components
 
