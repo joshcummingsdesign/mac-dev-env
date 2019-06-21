@@ -182,6 +182,10 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 }
 ```
 
+#### Vim
+
+* [VSpaceCode](https://github.com/VSpaceCode/VSpaceCode)
+
 #### Code Spell Checker
 
 ##### Recommended settings
@@ -208,7 +212,6 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 * Jekyll Syntax Support
 * Jest
 * Rewrap
-* Vim
 * VS Code CSS Comments
 * vscode-styled-components
 
