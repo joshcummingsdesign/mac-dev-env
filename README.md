@@ -84,6 +84,12 @@ plugins=(
 alias dstroy="find . -name '.DS_Store' -type f -delete"
 ```
 
+### tmux
+
+```sh
+brew install tmux
+```
+
 ### Git
 
 Update Mac Git
