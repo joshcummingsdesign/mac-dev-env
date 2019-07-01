@@ -90,6 +90,10 @@ alias dstroy="find . -name '.DS_Store' -type f -delete"
 brew install tmux
 ```
 
+tmux config
+
+* [~/.tmux.conf](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.tmux.conf)
+
 ### Git
 
 Update Mac Git
