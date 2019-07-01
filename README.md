@@ -77,13 +77,6 @@ plugins=(
 )
 ```
 
-### Zsh Aliases
-
-```sh
-# Remove all .DS_Store files in a directory
-alias dstroy="find . -name '.DS_Store' -type f -delete"
-```
-
 ### tmux
 
 ```sh
@@ -93,6 +86,17 @@ brew install tmux
 tmux config
 
 * [~/.tmux.conf](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.tmux.conf)
+
+### Zsh Aliases
+
+```sh
+# Remove all .DS_Store files in a directory
+alias dstroy="find . -name '.DS_Store' -type f -delete"
+
+# tmux
+alias ta="tmux attach-session -t"
+alias tl="tmux list-sessions"
+```
 
 ### Git
 
