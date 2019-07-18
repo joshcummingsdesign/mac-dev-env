@@ -219,6 +219,7 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 #### Other Helpful Extensions
 
 * change-case
+* Debugger for Chrome
 * Docker
 * EditorConfig for VS Code
 * GraphQL for VSCode
