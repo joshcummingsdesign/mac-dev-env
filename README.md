@@ -218,14 +218,13 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 
 #### Other Helpful Extensions
 
+* advanced-new-file
 * change-case
 * Debugger for Chrome
 * Docker
 * EditorConfig for VS Code
 * ES7 React/Redux/GraphQL/React-Native snippets
 * GraphQL for VSCode
-* Jekyll Snippets
-* Jekyll Syntax Support
 * Jest
 * Rewrap
 * VS Code CSS Comments
