@@ -225,7 +225,6 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 * EditorConfig for VS Code
 * ES7 React/Redux/GraphQL/React-Native snippets
 * GraphQL for VSCode
-* Jest
 * Rewrap
 * VS Code CSS Comments
 * vscode-styled-components
