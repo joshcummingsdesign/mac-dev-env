@@ -200,26 +200,11 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 
 * [VSpaceCode](https://github.com/VSpaceCode/VSpaceCode)
 
-#### Code Spell Checker
-
-##### Recommended settings
-
-```json
-{
-    "cSpell.enabledLanguageIds": [
-        "markdown",
-        "plaintext",
-        "text",
-        "yaml",
-        "yml"
-    ]
-}
-```
-
 #### Other Helpful Extensions
 
 * advanced-new-file
 * change-case
+* Code Spell Checker
 * Debugger for Chrome
 * Docker
 * EditorConfig for VS Code
