@@ -77,15 +77,53 @@ plugins=(
 )
 ```
 
-### tmux
+### ripgrep
+
+    $ brew install ripgrep
+
+### Vim
+
+Update Mac Vim
+
+    $ brew install vim
+
+.vimrc
+
+* [~/.vimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vimrc
+
+Install vim-plug
+
+https://github.com/junegunn/vim-plug
+
+Run `:PlugInstall` in Vim to fetch and install all plugins
+
+Use vi mode in bash by default by adding this to your `.zshrc`
 
 ```sh
-brew install tmux
+set -o vi
 ```
+
+### tmux
+
+Install tmux
+
+    $ brew install tmux
 
 tmux config
 
 * [~/.tmux.conf](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.tmux.conf)
+
+Install tpm
+
+https://github.com/tmux-plugins/tpm
+
+Press `prefix + I` in a tmux session to fetch and install all plugins
+
+Enable 24-bit (true-color) mode in your `.zshrc`
+
+```sh
+export TERM="xterm-256color"
+```
 
 ### Zsh Aliases
 
