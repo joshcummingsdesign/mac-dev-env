@@ -16,6 +16,7 @@ Plug 'leafgarland/typescript-vim'
 
 call plug#end()
 
+
 " === Fuzzy-Finding ===
 if executable('rg')
   set grepprg=rg\ --color=never
@@ -26,6 +27,7 @@ let g:ctrlp_custom_ignore = {
   \ 'dir': '\.git$\|\.yardoc\|bower_components|node_modules|public$|log\|tmp$',
   \ 'file': '\.so$\|\.dat$|\.DS_Store$'
   \ }
+
 
 " === Color Scheme ===
 " Use 24-bit (true-color) mode
