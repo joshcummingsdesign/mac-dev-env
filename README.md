@@ -110,6 +110,15 @@ Use vi mode in bash by default by adding this to your `.zshrc`
 set -o vi
 ```
 
+Add a keybinding for editing a command in a Vim buffer in your `.zshrc`
+
+```sh
+# Edit command line
+autoload -U edit-command-line
+zle -N edit-command-line
+bindkey '^x^x' edit-command-line
+```
+
 ### tmux
 
 Install tmux
