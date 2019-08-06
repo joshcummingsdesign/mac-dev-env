@@ -77,6 +77,13 @@ plugins=(
 )
 ```
 
+### Zsh Aliases
+
+```sh
+# Remove all .DS_Store files in a directory
+alias dstroy="find . -name '.DS_Store' -type f -delete"
+```
+
 ### ripgrep
 
     $ brew install ripgrep
@@ -125,12 +132,9 @@ Enable 24-bit (true-color) mode in your `.zshrc`
 export TERM="xterm-256color"
 ```
 
-### Zsh Aliases
+Make your life easier by adding tmux aliases to your `.zshrc`
 
 ```sh
-# Remove all .DS_Store files in a directory
-alias dstroy="find . -name '.DS_Store' -type f -delete"
-
 # tmux
 alias ta="tmux attach-session -t"
 alias tl="tmux list-sessions"
