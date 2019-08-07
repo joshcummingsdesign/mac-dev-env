@@ -77,8 +77,6 @@ nmap <Leader>jl <Plug>(easymotion-overwin-line)
 " -- Move to character --
 map  <Leader>jj <Plug>(easymotion-bd-f)
 nmap <Leader>jj <Plug>(easymotion-overwin-f)
-nmap j2 <Plug>(easymotion-overwin-f2)
 
 " -- Toggle NERDTree --
 map <C-\> :NERDTreeToggle<CR>
-
