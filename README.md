@@ -84,6 +84,10 @@ plugins=(
 alias dstroy="find . -name '.DS_Store' -type f -delete"
 ```
 
+### htop
+
+    $ brew install htop
+
 ### ripgrep
 
     $ brew install ripgrep
