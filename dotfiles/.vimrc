@@ -10,6 +10,7 @@ Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'easymotion/vim-easymotion'
+Plug 'editorconfig/editorconfig-vim'
 Plug 'mattn/emmet-vim'
 Plug 'mxw/vim-jsx'
 Plug 'leafgarland/typescript-vim'
@@ -80,3 +81,4 @@ nmap j2 <Plug>(easymotion-overwin-f2)
 
 " -- Toggle NERDTree --
 map <C-\> :NERDTreeToggle<CR>
+
