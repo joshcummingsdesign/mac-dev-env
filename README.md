@@ -54,10 +54,14 @@ In iTerm2 go to `Preferences > Profiles > Colors` and add your theme under `Colo
 
 In iTerm2 go to `Preferences > Profiles > Text` and change the font to Fira Mono
 
-Change the theme in your `.zshrc` to agnoster
+[Install the Powerlevel9k theme](https://github.com/Powerlevel9k/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh)
+
+Change the theme in your `.zshrc` to powerlevel9k
 
 ```sh
-ZSH_THEME="agnoster"
+ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vi_mode context dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv status root_indicator background_jobs)
 ```
 
 ### Zsh Plugins
@@ -111,7 +115,10 @@ Run `:PlugInstall` in Vim to fetch and install all plugins
 Use vi mode in bash by default by adding this to your `.zshrc`
 
 ```sh
-set -o vi
+# vi mode
+export KEYTIMEOUT=10
+bindkey -v
+bindkey -M viins 'fd' vi-cmd-mode
 ```
 
 Add a keybinding for editing a command in a Vim buffer in your `.zshrc`
@@ -268,6 +275,7 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 * Rewrap
 * VS Code CSS Comments
 * vscode-styled-components
+* vscode-viml-syntax
 
 ---
 
