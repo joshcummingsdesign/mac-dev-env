@@ -115,7 +115,7 @@ Run `:PlugInstall` in Vim to fetch and install all plugins
 Use vi mode in bash by default by adding this to your `.zshrc`
 
 ```sh
-# vi mode
+# Vi mode
 export KEYTIMEOUT=10
 bindkey -v
 bindkey -M viins 'fd' vi-cmd-mode
@@ -124,10 +124,10 @@ bindkey -M viins 'fd' vi-cmd-mode
 Add a keybinding for editing a command in a Vim buffer in your `.zshrc`
 
 ```sh
-# Edit command line
+# Edit command in an external editor.
 autoload -U edit-command-line
 zle -N edit-command-line
-bindkey '^x^x' edit-command-line
+bindkey -M vicmd "v" edit-command-line
 ```
 
 ### tmux
@@ -223,7 +223,7 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 
 #### Prettier
 
-##### Recommended settings
+##### Recommended Settings
 
 ```json
 {
@@ -248,7 +248,7 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 
 #### Emmet
 
-##### Recommended settings
+##### Recommended Settings
 
 ```json
 {
@@ -261,6 +261,15 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 #### Vim
 
 * [VSpaceCode](https://github.com/VSpaceCode/VSpaceCode)
+
+##### Recommended Settings
+
+```json
+{
+  "editor.cursorBlinking": "solid",
+  "vim.hlsearch": true
+}
+```
 
 #### Other Helpful Extensions
 
