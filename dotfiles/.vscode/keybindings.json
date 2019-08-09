@@ -1,0 +1,20 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+      "key": "cmd+shift+g",
+      "command": "workbench.view.scm"
+  },
+  {
+      "key": "cmd+numpad1",
+      "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+      "key": "ctrl+\\",
+      "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+      "key": "cmd+shift+c",
+      "command": "-workbench.action.terminal.openNativeConsole",
+      "when": "!terminalFocus"
+  }
+]

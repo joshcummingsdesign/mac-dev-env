@@ -16,150 +16,6 @@ https://brew.sh/
 
 https://www.iterm2.com/
 
-### Zsh
-
-Update Mac Zsh
-
-    $ brew install zsh
-
-Switch to Zsh
-
-    $ chsh -s /bin/zsh
-
-### Oh My Zsh
-
-https://github.com/robbyrussell/oh-my-zsh/
-
-Set your default user
-
-```sh
-DEFAULT_USER=myusername
-```
-
-### Zsh Theme
-
-#### Colors
-
-Set your prefered color scheme
-
-##### Recommended Color Scheme
-
-* [One Dark](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
-
-In iTerm2 go to `Preferences > Profiles > Colors` and add your theme under `Color Presets`
-
-#### Powerline
-
-[Download the Fira Mono font family](https://github.com/powerline/fonts/)
-
-In iTerm2 go to `Preferences > Profiles > Text` and change the font to Fira Mono
-
-[Install the Powerlevel9k theme](https://github.com/Powerlevel9k/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh)
-
-Change the theme in your `.zshrc` to powerlevel9k
-
-```sh
-ZSH_THEME="powerlevel9k/powerlevel9k"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vi_mode context dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv status root_indicator background_jobs)
-```
-
-### Zsh Plugins
-
-##### Recommended Plugins
-
-* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/)
-* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/)
-
-Add plugins to your `.zshrc`
-
-```sh
-plugins=(
-  git
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-)
-```
-
-### Zsh Aliases
-
-```sh
-# Remove all .DS_Store files in a directory
-alias dstroy="find . -name '.DS_Store' -type f -delete"
-```
-
-### htop
-
-    $ brew install htop
-
-### ripgrep
-
-    $ brew install ripgrep
-
-### Vim
-
-Update Mac Vim
-
-    $ brew install vim
-
-.vimrc
-
-* [~/.vimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vimrc
-
-Install vim-plug
-
-https://github.com/junegunn/vim-plug
-
-Run `:PlugInstall` in Vim to fetch and install all plugins
-
-Use vi mode in bash by default by adding this to your `.zshrc`
-
-```sh
-# Vi mode
-export KEYTIMEOUT=10
-bindkey -v
-bindkey -M viins 'fd' vi-cmd-mode
-```
-
-Add a keybinding for editing a command in a Vim buffer in your `.zshrc`
-
-```sh
-# Edit command in an external editor.
-autoload -U edit-command-line
-zle -N edit-command-line
-bindkey -M vicmd "v" edit-command-line
-```
-
-### tmux
-
-Install tmux
-
-    $ brew install tmux
-
-tmux config
-
-* [~/.tmux.conf](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.tmux.conf)
-
-Install tpm
-
-https://github.com/tmux-plugins/tpm
-
-Press `prefix + I` in a tmux session to fetch and install all plugins
-
-Enable 24-bit (true-color) mode in your `.zshrc`
-
-```sh
-export TERM="xterm-256color"
-```
-
-Make your life easier by adding tmux aliases to your `.zshrc`
-
-```sh
-# tmux
-alias ta="tmux attach-session -t"
-alias tl="tmux list-sessions"
-```
-
 ### Git
 
 Update Mac Git
@@ -191,6 +47,84 @@ Host *
     UseKeychain yes
 ```
 
+### Zsh
+
+Update Mac Zsh
+
+    $ brew install zsh
+
+Switch to Zsh
+
+    $ chsh -s /bin/zsh
+
+zshrc
+
+* [dotfiles/.zshrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.zshrc)
+
+### Oh My Zsh
+
+https://github.com/robbyrussell/oh-my-zsh/
+
+### Zsh Theme
+
+#### Color Scheme
+
+* [One Dark](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
+
+In iTerm2 go to `Preferences > Profiles > Colors` and add your theme under `Color Presets`
+
+#### Powerline
+
+[Download the Fira Mono font family](https://github.com/powerline/fonts/)
+
+In iTerm2 go to `Preferences > Profiles > Text` and change the font to Fira Mono
+
+[Install the Powerlevel9k theme](https://github.com/Powerlevel9k/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh)
+
+### Zsh Plugins
+
+* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/)
+* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/)
+
+### htop
+
+    $ brew install htop
+
+### ripgrep
+
+    $ brew install ripgrep
+
+### Vim
+
+Update Mac Vim
+
+    $ brew install vim
+vimrc
+
+* [dotfiles/.vimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vimrc)
+
+Install vim-plug
+
+https://github.com/junegunn/vim-plug
+
+Run `:PlugInstall` in Vim to fetch and install all plugins
+
+### tmux
+
+Install tmux
+
+    $ brew install tmux
+
+tmux config
+
+* [~/.tmux.conf](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.tmux.conf)
+
+Install tpm
+
+https://github.com/tmux-plugins/tpm
+
+Press `prefix + I` in a tmux session to fetch and install all plugins
+
 ### Node.js
 
 Install nvm
@@ -209,69 +143,19 @@ Set a default Node.js version
 
 https://code.visualstudio.com/
 
-#### Themes
-
-Install your desired theme and then press `⌘K` then `⌘T` to switch themes
-
-##### Recommended Theme
-
-* One Dark Pro
-
-##### Recommended Font
+#### Font
 
 * [Dank Mono](https://dank.sh/)
 
-#### Prettier
+#### Settings
 
-##### Recommended Settings
+* [dotfiles/.vscode/settings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/settings.json)
 
-```json
-{
-    "[javascript]": {
-        "editor.formatOnSave": true
-    },
-    "[javascriptreact]": {
-        "editor.formatOnSave": true
-    },
-    "[typescript]": {
-        "editor.formatOnSave": true
-    },
-    "[typescriptreact]": {
-        "editor.formatOnSave": true
-    },
-    "prettier.singleQuote": true,
-    "prettier.jsxBracketSameLine": true,
-    "prettier.jsxSingleQuote": true,
-    "prettier.printWidth": 100,
-}
-```
+#### Keybindings
 
-#### Emmet
+* [dotfiles/.vscode/keybindings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/keybindings.json)
 
-##### Recommended Settings
-
-```json
-{
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    }
-}
-```
-
-#### Vim
-
-* [VSpaceCode](https://github.com/VSpaceCode/VSpaceCode)
-
-##### Recommended Settings
-
-```json
-{
-  "editor.cursorBlinking": "solid",
-  "vim.hlsearch": true
-}
-```
-
-#### Other Helpful Extensions
+#### Extensions
 
 * advanced-new-file
 * change-case
@@ -281,7 +165,10 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 * EditorConfig for VS Code
 * ES7 React/Redux/GraphQL/React-Native snippets
 * GraphQL for VSCode
+* One Dark Pro
+* Prettier - Code formatter
 * Rewrap
+* Vim
 * VS Code CSS Comments
 * vscode-styled-components
 * vscode-viml-syntax
@@ -292,9 +179,6 @@ Install your desired theme and then press `⌘K` then `⌘T` to switch themes
 
 ### Homebrew Commands
 
-* `brew cask install [app-name]` - Install a Mac OS X app
-* `brew cask uninstall [app-name]` - Uninstall a Mac OS X app
-* `brew cask list` - Show all apps installed with Hombrew Cask
 * `brew search [package-name]` - Search for a package
 * `brew install [package-name]` - Install a package
 * `brew uninstall [package-name]` - Uninstall a package
