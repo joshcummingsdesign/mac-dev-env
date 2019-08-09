@@ -21,7 +21,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 # === User Config ===
-DEFAULT_USER=myusername
+DEFAULT_USER=`whoami`
 
 
 # === Settings ===
