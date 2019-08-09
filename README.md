@@ -133,11 +133,11 @@ https://github.com/creationix/nvm/
 
 Install a version of Node.js
 
-    $ nvm install 11.9.0
+    $ nvm install 12.8.0
 
 Set a default Node.js version
 
-    $ nvm alias default 11.9.0
+    $ nvm alias default 12.8.0
 
 ### Visual Studio Code
 
