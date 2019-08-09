@@ -73,7 +73,6 @@ set ttimeout                    " Set a timeout to recognize key sequence
 set ttimeoutlen=100             " Set timeout to 100ms
 set visualbell			            " No sounds
 set switchbuf=useopen           " Reveal already-opened files from quickfix window
-set viminfo='100,f1           	" Save up to 100 marks, enable capital marks
 "}}}
 
 
