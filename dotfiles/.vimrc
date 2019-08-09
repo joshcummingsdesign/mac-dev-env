@@ -153,6 +153,10 @@ nnoremap <leader>tw :set nolist!<CR>
 nnoremap <leader>tl :set nowrap!<CR>
 nnoremap <leader>sp :set paste!<CR>
 
+" page manipulations
+nnoremap <silent> <CR> <C-f>
+nnoremap <silent> <Backspace> <C-b>
+
 " Line manipulations
 nnoremap <silent><leader>tn :set number!<CR>
 nnoremap <silent><leader>tr :set number!<CR>:set relativenumber!<CR>
