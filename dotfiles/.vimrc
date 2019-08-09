@@ -115,7 +115,7 @@ inoremap fd <Esc>
 xnoremap fd <Esc>
 
 " Move to word
-map  <Leader>jw <Plug>(easymotion-bd-w)
+map <Leader>jw <Plug>(easymotion-bd-w)
 nmap <Leader>jw <Plug>(easymotion-overwin-w)
 
 " Move to line
@@ -123,7 +123,7 @@ map <Leader>jl <Plug>(easymotion-bd-jk)
 nmap <Leader>jl <Plug>(easymotion-overwin-line)
 
 " Move to character
-map  <Leader>jj <Plug>(easymotion-bd-f)
+map <Leader>jj <Plug>(easymotion-bd-f)
 nmap <Leader>jj <Plug>(easymotion-overwin-f)
 
 " Manipulate windows spacemacs-style
@@ -158,9 +158,9 @@ nnoremap <silent> <CR> <C-f>
 nnoremap <silent> <Backspace> <C-b>
 
 " Line manipulations
-nnoremap <silent><leader>tn :set number!<CR>
-nnoremap <silent><leader>tr :set number!<CR>:set relativenumber!<CR>
-nnoremap <silent><leader>tl :set wrap!<CR>
+nnoremap <silent> <leader>tn :set number!<CR>
+nnoremap <silent> <leader>tr :set number!<CR>:set relativenumber!<CR>
+nnoremap <silent> <leader>tl :set wrap!<CR>
 
 " Toggle NERDTree
 map <C-\> :NERDTreeToggle<CR>
