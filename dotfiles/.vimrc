@@ -55,25 +55,25 @@ endif
 
 
 " ------------ General Config ------------ {{{
-set autoread                    " Reload files changed outside vim
-set backspace=indent,eol,start  " Allow backspace in insert mode
-set browsedir=buffer            " Browse should default to current buffer
-set directory-=.                " No .swp/swo etc. in `cwd`
-set encoding=utf-8              " UTF-8 encoding
-set hidden                      " Hidden Buffers
-set history=1000                " Store lots of :cmdline history
-set lazyredraw                  " Buffer screen updates
-set nrformats-=octal            " Increase floats w/ ctrl-a
-set number                      " Show line number
-set relativenumber              " Relative line numbers
-set pastetoggle=<F2>            " In insert mode, press <F2> to go to paste mode
-set selection=old               " Stop that annoying thing where vim selects the next line
-set synmaxcol=511               " Dont apply syntax coloring after the 512th column
-set ttimeout                    " Set a timeout to recognize key sequence
-set ttimeoutlen=100             " Set timeout to 100ms
-set visualbell                  " No sounds
-set switchbuf=useopen           " Reveal already-opened files from quickfix window
-set viminfo='100,f1             " Save up to 100 marks, enable capital marks
+set autoread                   " Reload files changed outside vim
+set backspace=indent,eol,start " Allow backspace in insert mode
+set browsedir=buffer           " Browse should default to current buffer
+set directory-=.               " No .swp/swo etc. in `cwd`
+set encoding=utf-8             " UTF-8 encoding
+set hidden                     " Hidden Buffers
+set history=1000               " Store lots of :cmdline history
+set lazyredraw                 " Buffer screen updates
+set nrformats-=octal           " Increase floats w/ ctrl-a
+set number                     " Show line number
+set relativenumber             " Relative line numbers
+set pastetoggle=<F2>           " In insert mode, press <F2> to go to paste mode
+set selection=old              " Stop that annoying thing where vim selects the next line
+set synmaxcol=511              " Dont apply syntax coloring after the 512th column
+set ttimeout                   " Set a timeout to recognize key sequence
+set ttimeoutlen=100            " Set timeout to 100ms
+set visualbell                 " No sounds
+set switchbuf=useopen          " Reveal already-opened files from quickfix window
+set viminfo='100,f1            " Save up to 100 marks, enable capital marks
 "}}}
 
 
@@ -95,7 +95,7 @@ set listchars=tab:»·,trail:· " Set characters to use for trailing tabs and sp
 set incsearch  " Find the next match as we type the search
 set hlsearch   " Hilight searches by default
 set ignorecase " Ignore Case
-set smartcase	 " Enable Smart Case Search
+set smartcase  " Enable Smart Case Search
 "}}}
 
 
