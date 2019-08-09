@@ -153,7 +153,7 @@ nnoremap <leader>tw :set nolist!<CR>
 nnoremap <leader>tl :set nowrap!<CR>
 nnoremap <leader>sp :set paste!<CR>
 
-" page manipulations
+" Page manipulations
 nnoremap <silent> <CR> <C-f>
 nnoremap <silent> <Backspace> <C-b>
 
