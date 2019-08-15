@@ -157,7 +157,7 @@ https://code.visualstudio.com/
 
 #### Keybindings
 
-* [dotfiles/.vscode/keybindings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/keybindings.json)
+* [dotfiles/.vscode/keybindings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/keybindings.json)
 
 #### Extensions
 
