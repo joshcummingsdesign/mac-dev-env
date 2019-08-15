@@ -94,6 +94,10 @@ In iTerm2 go to `Preferences > Profiles > Text` and change the font to Fira Mono
 
     $ brew install ripgrep
 
+### sed
+
+    $ brew install gnu-sed
+
 ### Vim
 
 Update Mac Vim
@@ -164,6 +168,7 @@ https://code.visualstudio.com/
 * Docker
 * EditorConfig for VS Code
 * ES7 React/Redux/GraphQL/React-Native snippets
+* Go to Next/Previous Member
 * GraphQL for VSCode
 * One Dark Pro
 * Prettier - Code formatter

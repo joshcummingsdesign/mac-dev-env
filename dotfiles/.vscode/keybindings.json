@@ -16,5 +16,31 @@
       "key": "cmd+shift+c",
       "command": "-workbench.action.terminal.openNativeConsole",
       "when": "!terminalFocus"
+  },
+  {
+      "key": "[ m",
+      "command": "gotoNextPreviousMember.previousMember"
+  },
+  {
+      "key": "] m",
+      "command": "gotoNextPreviousMember.nextMember"
+  },
+  {
+      "key": "ctrl+down",
+      "command": "-gotoNextPreviousMember.nextMember"
+  },
+  {
+      "key": "ctrl+up",
+      "command": "-gotoNextPreviousMember.previousMember"
+  },
+  {
+      "key": "s",
+      "command": "explorer.openToSide",
+      "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+  },
+  {
+      "key": "o",
+      "command": "list.select",
+      "when": "listFocus && !inputFocus"
   }
 ]
