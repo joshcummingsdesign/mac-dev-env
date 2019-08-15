@@ -86,6 +86,60 @@
   ],
   "vim.normalModeKeyBindings": [
       {
+        "before": [
+          "<leader>",
+          "s",
+          "c"
+        ],
+        "after": [],
+        "commands": [
+          {
+            "command": "cSpell.toggleEnableSpellChecker",
+            "args": []
+          }
+        ]
+      },
+      {
+          "before": [
+              "<leader>",
+              "n",
+              "s"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": ":nohl",
+                  "args": []
+              }
+          ]
+      },
+      {
+          "before": [
+              "[",
+              "m"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "gotoNextPreviousMember.previousMember",
+                  "args": []
+              }
+          ]
+      },
+      {
+          "before": [
+              "]",
+              "m"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "gotoNextPreviousMember.nextMember",
+                  "args": []
+              }
+          ]
+      },
+      {
           "before": [
               "<CR>",
           ],

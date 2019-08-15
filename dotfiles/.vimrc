@@ -68,7 +68,7 @@ set number                     " Show line number
 set relativenumber             " Relative line numbers
 set pastetoggle=<F2>           " In insert mode, press <F2> to go to paste mode
 set selection=old              " Stop that annoying thing where vim selects the next line
-set synmaxcol=511              " Dont apply syntax coloring after the 512th column
+set synmaxcol=511              " Don't apply syntax coloring after the 512th column
 set ttimeout                   " Set a timeout to recognize key sequence
 set ttimeoutlen=100            " Set timeout to 100ms
 set visualbell                 " No sounds
@@ -94,7 +94,7 @@ set listchars=tab:»·,trail:· " Set characters to use for trailing tabs and sp
 
 " ------------ Search Settings ------------ {{{
 set incsearch  " Find the next match as we type the search
-set hlsearch   " Hilight searches by default
+set hlsearch   " Highlight searches by default
 set ignorecase " Ignore Case
 set smartcase  " Enable Smart Case Search
 "}}}
@@ -102,7 +102,7 @@ set smartcase  " Enable Smart Case Search
 
 " ------------ Scroll Settings ------------ {{{
 set scrolloff=3      " Keep cursor 3 lines away from top and bottom while scrolling
-set sidescrolloff=15 " Keep 15 colums to left/right of cursor while scrolling
+set sidescrolloff=15 " Keep 15 columns to left/right of cursor while scrolling
 set sidescroll=1     " Smooth horizontal scrolling
 "}}}
 
@@ -132,13 +132,11 @@ nnoremap <silent> <leader>wh <C-w>h
 nnoremap <silent> <leader>wl <C-w>l
 nnoremap <silent> <leader>wk <C-w>k
 nnoremap <silent> <leader>wj <C-w>j
-
-" Easy window splits
 nnoremap <silent> <leader>wv <C-w>v
 nnoremap <silent> <leader>ws <C-w>s
 
 " Basic spacemacs compatibility bindings
-nnoremap <silent> <leader>sc :nohlsearch<CR>
+nnoremap <silent> <leader>ns :nohl<CR>
 nnoremap <silent> <leader>fs :w<CR>
 nnoremap <leader>ft :cd %:p:h<cr>:Lexplore<cr>
 nnoremap <leader>ad :cd %:p:h<cr>:Explore<cr>
@@ -157,6 +155,9 @@ nnoremap <leader>sp :set paste!<CR>
 " Page manipulations
 nnoremap <silent> <CR> <C-f>
 nnoremap <silent> <Backspace> <C-b>
+
+" Toggle spell checking
+nnoremap <silent> <leader>sc :setlocal spell! spelllang=en_us<CR>
 
 " Toggle NERDTree
 map <C-\> :NERDTreeToggle<CR>

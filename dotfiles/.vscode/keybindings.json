@@ -5,8 +5,9 @@
       "command": "workbench.view.scm"
   },
   {
-      "key": "cmd+numpad1",
-      "command": "workbench.files.action.collapseExplorerFolders"
+      "key": "shift+x",
+      "command": "workbench.files.action.collapseExplorerFolders",
+      "when": "listFocus && !inputFocus"
   },
   {
       "key": "ctrl+\\",
@@ -16,14 +17,6 @@
       "key": "cmd+shift+c",
       "command": "-workbench.action.terminal.openNativeConsole",
       "when": "!terminalFocus"
-  },
-  {
-      "key": "[ m",
-      "command": "gotoNextPreviousMember.previousMember"
-  },
-  {
-      "key": "] m",
-      "command": "gotoNextPreviousMember.nextMember"
   },
   {
       "key": "ctrl+down",
