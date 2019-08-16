@@ -6,15 +6,15 @@
 
 ### Docker CE
 
-https://www.docker.com/community-edition/
+https://www.docker.com/community-edition
 
 ### Homebrew
 
-https://brew.sh/
+https://brew.sh
 
 ### iTerm2
 
-https://www.iterm2.com/
+https://www.iterm2.com
 
 ### Git
 
@@ -63,7 +63,7 @@ zshrc
 
 ### Oh My Zsh
 
-https://github.com/robbyrussell/oh-my-zsh/
+https://github.com/robbyrussell/oh-my-zsh
 
 ### Zsh Theme
 
@@ -75,7 +75,7 @@ In iTerm2 go to `Preferences > Profiles > Colors` and add your theme under `Colo
 
 #### Powerline
 
-[Download the Fira Mono font family](https://github.com/powerline/fonts/)
+[Download the Fira Mono font family](https://github.com/powerline/fonts)
 
 In iTerm2 go to `Preferences > Profiles > Text` and change the font to Fira Mono
 
@@ -83,8 +83,8 @@ In iTerm2 go to `Preferences > Profiles > Text` and change the font to Fira Mono
 
 ### Zsh Plugins
 
-* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/)
-* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/)
+* [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
 ### htop
 
@@ -133,7 +133,7 @@ Press `prefix + I` in a tmux session to fetch and install all plugins
 
 Install nvm
 
-https://github.com/creationix/nvm/
+https://github.com/creationix/nvm
 
 Install a version of Node.js
 
@@ -145,11 +145,11 @@ Set a default Node.js version
 
 ### Visual Studio Code
 
-https://code.visualstudio.com/
+https://code.visualstudio.com
 
 #### Font
 
-* [Dank Mono](https://dank.sh/)
+* [Dank Mono](https://dank.sh)
 
 #### Settings
 
