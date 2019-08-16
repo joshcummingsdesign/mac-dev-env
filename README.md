@@ -4,9 +4,9 @@
 
     $ xcode-select --install
 
-### Docker CE
+### Docker Desktop
 
-https://www.docker.com/community-edition
+https://hub.docker.com/editions/community/docker-ce-desktop-mac
 
 ### Homebrew
 
