@@ -107,6 +107,11 @@ set sidescroll=1     " Smooth horizontal scrolling
 "}}}
 
 
+" ------------ Editor Settings ------------ {{{
+autocmd BufWritePre * %s/\s\+$//e " Remove trailing whitespace on save
+"}}}
+
+
 " ------------ Key Bindings ------------ {{{
 " Leader
 let mapleader = "\<Space>"
