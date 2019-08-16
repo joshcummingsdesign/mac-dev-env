@@ -3,20 +3,33 @@
   "files.trimTrailingWhitespace": true,
   "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDragAndDrop": false,
+  "vim.easymotion": true,
+  "editor.lineNumbers": "relative",
+  "search.location": "sidebar",
+  "workbench.activityBar.visible": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "files.insertFinalNewline": true,
   "editor.minimap.enabled": false,
+  "[json]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascript]": {
       "editor.formatOnSave": true,
       "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
-      "editor.formatOnSave": true
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
       "editor.formatOnSave": true,
       "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-      "editor.formatOnSave": true
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "emmet.includeLanguages": {
       "javascript": "javascriptreact"
@@ -39,6 +52,20 @@
           "before": [
               "<leader>",
               "c",
+              "c"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "editor.action.addCommentLine",
+                  "args": []
+              }
+          ]
+      },
+      {
+          "before": [
+              "<leader>",
+              "c",
               "u"
           ],
           "after": [],
@@ -53,12 +80,12 @@
           "before": [
               "<leader>",
               "c",
-              "c"
+              "<space>"
           ],
           "after": [],
           "commands": [
               {
-                  "command": "editor.action.addCommentLine",
+                  "command": "editor.action.commentLine",
                   "args": []
               }
           ]
@@ -72,20 +99,6 @@
           "commands": [
               {
                   "command": "workbench.action.showCommands",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "c",
-              "<space>"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "editor.action.commentLine",
                   "args": []
               }
           ]
@@ -119,6 +132,20 @@
           "before": [
               "<leader>",
               "c",
+              "c"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "editor.action.addCommentLine",
+                  "args": []
+              }
+          ]
+      },
+      {
+          "before": [
+              "<leader>",
+              "c",
               "u"
           ],
           "after": [],
@@ -133,12 +160,12 @@
           "before": [
               "<leader>",
               "c",
-              "c"
+              "<space>"
           ],
           "after": [],
           "commands": [
               {
-                  "command": "editor.action.addCommentLine",
+                  "command": "editor.action.commentLine",
                   "args": []
               }
           ]
@@ -235,20 +262,6 @@
           "commands": [
               {
                   "command": "workbench.action.openNextRecentlyUsedEditorInGroup",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "c",
-              "<space>"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "editor.action.commentLine",
                   "args": []
               }
           ]
@@ -1295,12 +1308,5 @@
               "<Esc>"
           ]
       }
-  ],
-  "vim.easymotion": true,
-  "editor.lineNumbers": "relative",
-  "search.location": "sidebar",
-  "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.activityBar.visible": true
+  ]
 }

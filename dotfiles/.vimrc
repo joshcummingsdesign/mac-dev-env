@@ -14,6 +14,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'mattn/emmet-vim'
 Plug 'mxw/vim-jsx'
 Plug 'leafgarland/typescript-vim'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
@@ -85,8 +86,8 @@ set nolist                   " Don't show trailing whitespace (list disables lin
 set autoindent               " Copy previous line's indent
 set preserveindent           " Preserve indent structure
 set copyindent               " Newline copies existing line structure
-set shiftwidth=4             " Number of spaces to use for each indent step
-set softtabstop=4            " Number of spaces that a <Tab> counts for
+set shiftwidth=2             " Number of spaces to use for each indent step
+set softtabstop=2            " Number of spaces that a <Tab> counts for
 set expandtab                " Use spaces to insert a <Tab>
 set listchars=tab:»·,trail:· " Set characters to use for trailing tabs and spaces
 "}}}
