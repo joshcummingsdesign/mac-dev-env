@@ -154,8 +154,8 @@ nnoremap <silent> <leader>bn :bnext<CR>
 nnoremap <silent> <leader>tn :tabnext<CR>
 nnoremap <silent> <leader>tp :tabprev<CR>
 nnoremap <leader>ff :e<SPACE>
-nnoremap <leader>tw :set nolist!<CR>
-nnoremap <leader>tl :set nowrap!<CR>
+nnoremap <leader>tl :set nolist!<CR>
+nnoremap <leader>tw :set nowrap!<CR>
 nnoremap <leader>sp :set paste!<CR>
 
 " Page manipulations
@@ -166,8 +166,8 @@ nnoremap <silent> <Backspace> <C-b>
 nnoremap <silent> <leader>sc :setlocal spell! spelllang=en_us<CR>
 
 " Toggle NERDTree
-map <C-\> :NERDTreeToggle<CR>
+map <silent> <C-\> :NERDTreeToggle<CR>
 "}}}
 
 " Reload .vimrc
-nnoremap <silent> <Leader>R :source $MYVIMRC<CR>
+nnoremap <Leader>R :source $MYVIMRC<CR>
