@@ -105,7 +105,7 @@ Update Mac Vim
     $ brew install vim
 vimrc
 
-* [dotfiles/.vimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vimrc)
+* [~/.vimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vimrc)
 
 Install vim-plug
 
