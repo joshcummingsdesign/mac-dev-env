@@ -162,7 +162,6 @@ nnoremap <silent> <leader>sc :setlocal spell! spelllang=en_us<CR>
 " Toggle NERDTree
 map <C-\> :NERDTreeToggle<CR>
 "}}}
-"
 
 " Reload .vimrc
 nnoremap <silent> <Leader>R :source $MYVIMRC<CR>
