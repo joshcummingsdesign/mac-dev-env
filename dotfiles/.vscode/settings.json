@@ -78,8 +78,8 @@
       {
           "before": [
               "<leader>",
-              ";",
-              ";"
+              "c",
+              "<space>"
           ],
           "after": [],
           "commands": [
@@ -114,6 +114,34 @@
       }
   ],
   "vim.normalModeKeyBindings": [
+      {
+          "before": [
+              "<leader>",
+              "c",
+              "u"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "editor.action.removeCommentLine",
+                  "args": []
+              }
+          ]
+      },
+      {
+          "before": [
+              "<leader>",
+              "c",
+              "c"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "editor.action.addCommentLine",
+                  "args": []
+              }
+          ]
+      },
       {
         "before": [
           "<leader>",
@@ -213,8 +241,8 @@
       {
           "before": [
               "<leader>",
-              ";",
-              ";"
+              "c",
+              "<space>"
           ],
           "after": [],
           "commands": [
