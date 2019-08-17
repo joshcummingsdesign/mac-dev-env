@@ -412,9 +412,7 @@
       },
       {
           "before": [
-              "<leader>",
-              "b",
-              "d"
+              "Q"
           ],
           "after": [],
           "commands": [
@@ -455,8 +453,8 @@
       {
           "before": [
               "<leader>",
-              "b",
-              "s"
+              "f",
+              "f"
           ],
           "after": [],
           "commands": [
@@ -519,26 +517,6 @@
               {
                   "command": "workbench.action.openGlobalSettings",
                   "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "f",
-              "f"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "workbench.action.files.openFile",
-                  "args": [],
-                  "when": "!isMac"
-              },
-              {
-                  "command": "workbench.action.files.openFileFolder",
-                  "args": [],
-                  "when": "isMac"
               }
           ]
       },

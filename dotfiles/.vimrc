@@ -32,6 +32,10 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\.so$\|\.dat$|\.DS_Store$'
   \ }
 
+" Position fuzzy finder at the top
+let g:ctrlp_match_window_bottom = 0
+let g:ctrlp_match_window_reversed = 0
+
 " -- Airline --
 let g:airline_powerline_fonts = 1 " Use powerline fonts
 
