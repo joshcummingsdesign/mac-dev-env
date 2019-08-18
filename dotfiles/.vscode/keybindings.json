@@ -27,7 +27,7 @@
       "command": "-gotoNextPreviousMember.previousMember"
   },
   {
-      "key": "ctrl+v",
+      "key": "s",
       "command": "explorer.openToSide",
       "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
   },
