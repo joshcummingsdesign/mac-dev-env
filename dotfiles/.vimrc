@@ -28,7 +28,7 @@ endif
 
 " Ignore files when fuzzy-finding
 let g:ctrlp_custom_ignore = {
-  \ 'dir': '\.git$\|\.yardoc\|bower_components|node_modules|public$|log\|tmp$',
+  \ 'dir': '\.git$\|.cache|node_modules|build|log\|tmp$',
   \ 'file': '\.so$\|\.dat$|\.DS_Store$'
   \ }
 
