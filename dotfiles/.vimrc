@@ -137,6 +137,10 @@ nmap <Leader>jl <Plug>(easymotion-overwin-line)
 map <Leader>jj <Plug>(easymotion-bd-f)
 nmap <Leader>jj <Plug>(easymotion-overwin-f)
 
+" Add new lines
+nnoremap o o<Esc>
+nnoremap O O<Esc>
+
 " Manipulate windows spacemacs-style
 nnoremap <silent> <leader>wh <C-w>h
 nnoremap <silent> <leader>wl <C-w>l
@@ -162,7 +166,7 @@ nnoremap <leader>tl :set nolist!<CR>
 nnoremap <leader>tw :set nowrap!<CR>
 nnoremap <leader>sp :set paste!<CR>
 
-" Page manipulations
+" Page navigation
 nnoremap <silent> <CR> <C-f>
 nnoremap <silent> <Backspace> <C-b>
 

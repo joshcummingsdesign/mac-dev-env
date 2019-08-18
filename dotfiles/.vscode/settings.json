@@ -130,6 +130,30 @@
   "vim.normalModeKeyBindings": [
       {
           "before": [
+              "o"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "editor.action.insertLineAfter",
+                  "args": []
+              }
+          ]
+      },
+      {
+          "before": [
+              "O"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "editor.action.insertLineBefore",
+                  "args": []
+              }
+          ]
+      },
+      {
+          "before": [
               "<leader>",
               "c",
               "c"
@@ -1215,6 +1239,20 @@
           "commands": [
               {
                   "command": "workbench.action.splitEditor",
+                  "args": []
+              }
+          ]
+      },
+      {
+          "before": [
+              "<leader>",
+              "w",
+              "s"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "workbench.action.splitEditorDown",
                   "args": []
               }
           ]
