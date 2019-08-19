@@ -43,7 +43,6 @@ let g:airline_powerline_fonts = 1 " Use powerline fonts
 let NERDTreeShowHidden=1     " Show dotfiles
 autocmd BufEnter * lcd %:p:h " Set working directory to the current file
 "}}}
-"
 
 
 " ------------ Color Scheme ------------ {{{
