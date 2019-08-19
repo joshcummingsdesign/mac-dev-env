@@ -43,6 +43,7 @@ let g:airline_powerline_fonts = 1 " Use powerline fonts
 let NERDTreeShowHidden=1     " Show dotfiles
 autocmd BufEnter * lcd %:p:h " Set working directory to the current file
 "}}}
+"
 
 
 " ------------ Color Scheme ------------ {{{
@@ -114,6 +115,14 @@ set sidescroll=1     " Smooth horizontal scrolling
 
 " ------------ Editor Settings ------------ {{{
 autocmd BufWritePre * %s/\s\+$//e " Remove trailing whitespace on save
+"}}}
+
+
+" ------------ Cursor Settings ------------ {{{
+let &t_SI = "\e[5 q" " Set cursor to line in insert mode
+let &t_EI = "\e[2 q" " Set cursor to block in nomral mode
+" Set cursor to block on vim start
+autocmd VimEnter * silent exec "! echo -ne '\e[2 q'"
 "}}}
 
 
