@@ -79,6 +79,7 @@ set ttimeoutlen=100            " Set timeout to 100ms
 set visualbell                 " No sounds
 set switchbuf=useopen          " Reveal already-opened files from quickfix window
 set spell spelllang=en_us      " Spell checking
+set splitbelow                 " Open new splits on the bottom
 set viminfo='100,f1            " Save up to 100 marks, enable capital marks
 "}}}
 
@@ -180,6 +181,9 @@ nnoremap <silent> <Backspace> <C-b>
 
 " Toggle spell checking
 nnoremap <silent> <leader>sc :setlocal spell! spelllang=en_us<CR>
+
+" Open terminal
+nnoremap <silent> <leader>t :terminal ++rows=20<CR>
 
 " Toggle NERDTree
 map <silent> <C-\> :NERDTreeToggle<CR>

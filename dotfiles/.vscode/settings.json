@@ -16,6 +16,8 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "breadcrumbs.enabled": true,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
   "prettier.singleQuote": true,
   "prettier.jsxBracketSameLine": true,
   "prettier.jsxSingleQuote": true,
@@ -128,6 +130,19 @@
       }
   ],
   "vim.normalModeKeyBindings": [
+      {
+          "before": [
+              "<leader>",
+              "t"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "workbench.action.terminal.new",
+                  "args": []
+              }
+          ]
+      },
       {
           "before": [
               "o"
