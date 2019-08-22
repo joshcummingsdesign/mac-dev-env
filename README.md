@@ -103,6 +103,11 @@ In iTerm2 go to `Preferences > Profiles > Text` and change the font to Fira Mono
 Update Mac Vim
 
     $ brew install vim
+
+Install Neovim
+
+    $ brew install neovim
+
 vimrc
 
 * [~/.vimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vimrc)

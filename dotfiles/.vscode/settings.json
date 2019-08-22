@@ -47,6 +47,7 @@
       "javascript": "javascriptreact"
   },
   "typescript.updateImportsOnFileMove.enabled": "never",
+  "vim.enableNeovim": true,
   "vim.easymotion": true,
   "vim.hlsearch": true,
   "vim.leader": "<space>",
