@@ -41,11 +41,11 @@ let g:airline_powerline_fonts = 1 " Use powerline fonts
 
 " -- NERDTree --
 let NERDTreeShowHidden=1     " Show dotfiles
-autocmd BufEnter * lcd %:p:h " Set working directory to the current file
 "}}}
 
 " -- Emmet --
 let g:user_emmet_leader_key='<C-H>'
+
 
 " ------------ Color Scheme ------------ {{{
 syntax on
@@ -184,7 +184,7 @@ nnoremap <silent> <Backspace> <C-b>
 " Toggle spell checking
 nnoremap <silent> <leader>sc :setlocal spell! spelllang=en_us<CR>
 
-" Open terminal
+" Open terminal buffer
 nnoremap <silent> <leader>t :terminal ++rows=20<CR>
 
 " Toggle NERDTree
