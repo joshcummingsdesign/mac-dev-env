@@ -44,6 +44,8 @@ let NERDTreeShowHidden=1     " Show dotfiles
 autocmd BufEnter * lcd %:p:h " Set working directory to the current file
 "}}}
 
+" -- Emmet --
+let g:user_emmet_leader_key='<C-H>'
 
 " ------------ Color Scheme ------------ {{{
 syntax on
