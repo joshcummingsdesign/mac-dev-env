@@ -1,20 +1,21 @@
 " ------------ Plugins ------------ {{{
 call plug#begin('~/.vim/plugged')
 
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'joshdick/onedark.vim'
-Plug 'sheerun/vim-polyglot'
 Plug 'vim-airline/vim-airline'
-Plug 'tpope/vim-fugitive'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
+Plug 'jiangmiao/auto-pairs'
 Plug 'easymotion/vim-easymotion'
+Plug 'justinmk/vim-sneak'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'sheerun/vim-polyglot'
 Plug 'mattn/emmet-vim'
 Plug 'mxw/vim-jsx'
 Plug 'leafgarland/typescript-vim'
-Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
@@ -37,14 +38,23 @@ let g:ctrlp_match_window_bottom = 0
 let g:ctrlp_match_window_reversed = 0
 
 " -- Airline --
-let g:airline_powerline_fonts = 1 " Use powerline fonts
+" Use powerline fonts
+let g:airline_powerline_fonts = 1
 
 " -- NERDTree --
-let NERDTreeShowHidden=1     " Show dotfiles
+" Show dotfiles
+let NERDTreeShowHidden = 1
 "}}}
 
 " -- Emmet --
+"Change leader key
 let g:user_emmet_leader_key='<C-H>'
+
+" -- Sneak --
+""Enable Smart Case Sneak"
+let g:sneak#use_ic_scs = 1
+" Turn off Sneak highlight
+highlight link Sneak Normal
 
 
 " ------------ Color Scheme ------------ {{{
@@ -102,7 +112,6 @@ set listchars=tab:»·,trail:· " Set characters to use for trailing tabs and sp
 
 " ------------ Search Settings ------------ {{{
 set incsearch  " Find the next match as we type the search
-set hlsearch   " Highlight searches by default
 set ignorecase " Ignore Case
 set smartcase  " Enable Smart Case Search
 "}}}
@@ -161,7 +170,6 @@ nnoremap <silent> <leader>wv <C-w>v
 nnoremap <silent> <leader>ws <C-w>s
 
 " Basic spacemacs compatibility bindings
-nnoremap <silent> <leader>ns :nohl<CR>
 nnoremap <silent> <leader>fs :w<CR>
 nnoremap <leader>ft :cd %:p:h<cr>:Lexplore<cr>
 nnoremap <leader>ad :cd %:p:h<cr>:Explore<cr>

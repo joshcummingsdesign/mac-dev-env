@@ -49,7 +49,8 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vim.enableNeovim": true,
   "vim.easymotion": true,
-  "vim.hlsearch": true,
+  "vim.sneak": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
   "vim.leader": "<space>",
   "vim.visualModeKeyBindings": [
       {
@@ -224,20 +225,6 @@
             "args": []
           }
         ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "n",
-              "s"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": ":nohl",
-                  "args": []
-              }
-          ]
       },
       {
           "before": [
