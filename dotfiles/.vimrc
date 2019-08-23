@@ -51,7 +51,7 @@ let NERDTreeShowHidden = 1
 let g:user_emmet_leader_key='<C-H>'
 
 " -- Sneak --
-""Enable Smart Case Sneak"
+" Enable Smart Case Sneak
 let g:sneak#use_ic_scs = 1
 " Turn off Sneak highlight
 highlight link Sneak Normal
