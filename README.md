@@ -69,15 +69,17 @@ https://github.com/robbyrussell/oh-my-zsh
 
 #### Color Scheme
 
-* [One Dark](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
+* [Solarized](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
 
 In iTerm2 go to `Preferences > Profiles > Colors` and add your theme under `Color Presets`
 
 #### Powerline
 
-[Download the Fira Mono font family](https://github.com/powerline/fonts)
+[Download the FiraCode font family](https://github.com/tonsky/FiraCode)
 
-In iTerm2 go to `Preferences > Profiles > Text` and change the font to Fira Mono
+In iTerm2 go to `Preferences > Profiles > Text` and change the font to Fira Code
+
+Check the box that says "Use ligatures"
 
 [Install the Powerlevel9k theme](https://github.com/Powerlevel9k/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh)
 
@@ -154,7 +156,7 @@ https://code.visualstudio.com
 
 #### Font
 
-* [Dank Mono](https://dank.sh)
+* [FiraCode](https://github.com/tonsky/FiraCode)
 
 #### Settings
 
@@ -167,6 +169,7 @@ https://code.visualstudio.com
 #### Extensions
 
 * advanced-new-file
+* Better Solarized Dark
 * change-case
 * Code Spell Checker
 * Debugger for Chrome
@@ -175,7 +178,6 @@ https://code.visualstudio.com
 * ES7 React/Redux/GraphQL/React-Native snippets
 * Go to Next/Previous Member
 * GraphQL for VSCode
-* One Dark Pro
 * Prettier - Code formatter
 * Rewrap
 * Vim

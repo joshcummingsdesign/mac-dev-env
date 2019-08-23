@@ -2,16 +2,30 @@
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "One Dark Pro",
-  "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
+  "workbench.colorTheme": "Better Solarized Dark",
+  "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "editor.tabSize": 2,
   "editor.insertSpaces": false,
   "editor.cursorBlinking": "solid",
   "editor.lineNumbers": "relative",
   "editor.minimap.enabled": false,
   "editor.renderFinalNewline": false,
+   "editor.tokenColorCustomizations": {
+      "textMateRules": [
+          {
+              "scope": [
+                  "comment",
+                  "punctuation.definition.comment",
+                  "variable.language"
+              ],
+              "settings": {
+                  "fontStyle": ""
+              }
+          }
+      ]
+  },
   "explorer.confirmDragAndDrop": false,
   "search.location": "sidebar",
   "files.trimTrailingWhitespace": true,
@@ -49,6 +63,9 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vim.enableNeovim": true,
   "vim.easymotion": true,
+  "vim.easymotionMarkerBackgroundColor": "#C25428",
+  "vim.easymotionMarkerForegroundColorOneChar": "#FCF6E4",
+  "vim.easymotionMarkerForegroundColorTwoChar": "#FCF6E4",
   "vim.sneak": true,
   "vim.sneakUseIgnorecaseAndSmartcase": true,
   "vim.leader": "<space>",

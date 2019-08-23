@@ -1,8 +1,9 @@
 " ------------ Plugins ------------ {{{
 call plug#begin('~/.vim/plugged')
 
-Plug 'joshdick/onedark.vim'
+Plug 'lifepillar/vim-solarized8'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
@@ -19,8 +20,18 @@ Plug 'leafgarland/typescript-vim'
 
 call plug#end()
 
+
+" ------------ Color Scheme ------------ {{{
+set termguicolors " Use 24-bit (true-color) mode
+syntax on
+set background=dark
+colorscheme solarized8
+"}}}
+
+
+" ------------ Plugin Settings ------------ {{{
 " -- Airline --
-" Use powerline fonts
+let g:airline_theme='base16_solarized'
 let g:airline_powerline_fonts = 1
 
 " -- ctrlp --
@@ -46,6 +57,12 @@ let g:ctrlp_match_window_reversed = 0
 let NERDTreeShowHidden = 1
 "}}}
 
+" -- EasyMotion --
+let g:EasyMotion_do_shade = 0
+hi EasyMotionTarget ctermbg=red ctermfg=white
+hi EasyMotionTarget2First ctermbg=red ctermfg=white
+hi EasyMotionTarget2Second ctermbg=red ctermfg=white
+
 " -- Sneak --
 " Enable Smart Case Sneak
 let g:sneak#use_ic_scs = 1
@@ -53,14 +70,7 @@ let g:sneak#use_ic_scs = 1
 highlight link Sneak Normal
 
 " -- Emmet --
-"Change leader key
 let g:user_emmet_leader_key='<C-H>'
-
-
-" ------------ Color Scheme ------------ {{{
-syntax on
-colorscheme onedark
-set termguicolors " Use 24-bit (true-color) mode
 "}}}
 
 
@@ -140,18 +150,6 @@ let mapleader = "\<Space>"
 inoremap fd <Esc>
 xnoremap fd <Esc>
 
-" Move to word
-map <Leader>jw <Plug>(easymotion-bd-w)
-nmap <Leader>jw <Plug>(easymotion-overwin-w)
-
-" Move to line
-map <Leader>jl <Plug>(easymotion-bd-jk)
-nmap <Leader>jl <Plug>(easymotion-overwin-line)
-
-" Move to character
-map <Leader>jj <Plug>(easymotion-bd-f)
-nmap <Leader>jj <Plug>(easymotion-overwin-f)
-
 " Add new lines
 nnoremap o o<Esc>
 nnoremap O O<Esc>
@@ -189,6 +187,11 @@ nnoremap <silent> <leader>sc :setlocal spell! spelllang=en_us<CR>
 
 " Open terminal buffer
 nnoremap <silent> <leader>t :terminal ++rows=20<CR>
+
+" EasyMotion
+map <Leader>jw <Plug>(easymotion-bd-w)
+map <Leader>jl <Plug>(easymotion-bd-jk)
+map <Leader>jj <Plug>(easymotion-bd-f)
 
 " NERDTree
 map <silent> <C-\> :NERDTreeToggle<CR>
