@@ -81,6 +81,8 @@ In iTerm2 go to `Preferences > Profiles > Text` and change the font to Fira Code
 
 Check the box that says "Use ligatures"
 
+Uncheck the box that says "Italic text"
+
 [Install the Powerlevel9k theme](https://github.com/Powerlevel9k/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh)
 
 ### Zsh Plugins
