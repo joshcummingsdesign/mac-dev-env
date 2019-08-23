@@ -19,6 +19,10 @@ Plug 'leafgarland/typescript-vim'
 
 call plug#end()
 
+" -- Airline --
+" Use powerline fonts
+let g:airline_powerline_fonts = 1
+
 " -- ctrlp --
 " Use ripgrep when fuzzy-finding
 if executable('rg')
@@ -37,18 +41,10 @@ let g:ctrlp_custom_ignore = {
 let g:ctrlp_match_window_bottom = 0
 let g:ctrlp_match_window_reversed = 0
 
-" -- Airline --
-" Use powerline fonts
-let g:airline_powerline_fonts = 1
-
 " -- NERDTree --
 " Show dotfiles
 let NERDTreeShowHidden = 1
 "}}}
-
-" -- Emmet --
-"Change leader key
-let g:user_emmet_leader_key='<C-H>'
 
 " -- Sneak --
 " Enable Smart Case Sneak
@@ -56,18 +52,15 @@ let g:sneak#use_ic_scs = 1
 " Turn off Sneak highlight
 highlight link Sneak Normal
 
+" -- Emmet --
+"Change leader key
+let g:user_emmet_leader_key='<C-H>'
+
 
 " ------------ Color Scheme ------------ {{{
 syntax on
 colorscheme onedark
-
-" Use 24-bit (true-color) mode
-if (has("nvim"))
-  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-endif
-if (has("termguicolors"))
-  set termguicolors
-endif
+set termguicolors " Use 24-bit (true-color) mode
 "}}}
 
 
@@ -130,8 +123,10 @@ autocmd BufWritePre * %s/\s\+$//e " Remove trailing whitespace on save
 
 
 " ------------ Cursor Settings ------------ {{{
-let &t_SI = "\e[5 q" " Set cursor to line in insert mode
-let &t_EI = "\e[2 q" " Set cursor to block in nomral mode
+" Set cursor to line in insert mode
+let &t_SI = "\e[5 q"
+" Set cursor to block in nomral mode
+let &t_EI = "\e[2 q"
 " Set cursor to block on vim start
 autocmd VimEnter * silent exec "! echo -ne '\e[2 q'"
 "}}}
@@ -171,8 +166,6 @@ nnoremap <silent> <leader>ws <C-w>s
 
 " Basic spacemacs compatibility bindings
 nnoremap <silent> <leader>fs :w<CR>
-nnoremap <leader>ft :cd %:p:h<cr>:Lexplore<cr>
-nnoremap <leader>ad :cd %:p:h<cr>:Explore<cr>
 nnoremap <silent> <leader>bb :buffers<CR>
 nnoremap <silent> Q :q<CR>
 nnoremap <silent> <leader>fed :e ~/.vimrc<CR>
@@ -180,6 +173,8 @@ nnoremap <silent> <leader>bp :bprevious<CR>
 nnoremap <silent> <leader>bn :bnext<CR>
 nnoremap <silent> <leader>tn :tabnext<CR>
 nnoremap <silent> <leader>tp :tabprev<CR>
+nnoremap <silent> <leader>cn :cn<CR>
+nnoremap <silent> <leader>cp :cp<CR>
 nnoremap <leader>ff :e<SPACE>
 nnoremap <leader>tl :set nolist!<CR>
 nnoremap <leader>tw :set nowrap!<CR>
@@ -195,9 +190,12 @@ nnoremap <silent> <leader>sc :setlocal spell! spelllang=en_us<CR>
 " Open terminal buffer
 nnoremap <silent> <leader>t :terminal ++rows=20<CR>
 
-" Toggle NERDTree
+" NERDTree
 map <silent> <C-\> :NERDTreeToggle<CR>
-"}}}
+
+" NERDCommenter
+map <leader>cN <plug>NERDCommenterNested
 
 " Reload .vimrc
 nnoremap <Leader>R :source $MYVIMRC<CR>
+"}}}
