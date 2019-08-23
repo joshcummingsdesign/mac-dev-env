@@ -136,6 +136,34 @@
       {
           "before": [
               "<leader>",
+              "c",
+              "p"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "search.action.focusPreviousSearchResult",
+                  "args": []
+              }
+          ]
+      },
+      {
+          "before": [
+              "<leader>",
+              "c",
+              "n"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "search.action.focusNextSearchResult",
+                  "args": []
+              }
+          ]
+      },
+      {
+          "before": [
+              "<leader>",
               "t"
           ],
           "after": [],
