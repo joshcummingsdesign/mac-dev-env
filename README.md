@@ -10,17 +10,23 @@ https://hub.docker.com/editions/community/docker-ce-desktop-mac
 
 ### Homebrew
 
+Install Homebrew
+
 https://brew.sh
+
+Copy the Brewfile to your home directory
+
+    $ cp dotfiles/Brewfile ~/
+
+Install dependencies
+
+    $ brew bundle --file=~/Brewfile
 
 ### iTerm2
 
 https://www.iterm2.com
 
 ### Git
-
-Update Mac Git
-
-    $ brew install git
 
 Configure Git settings
 
@@ -31,10 +37,6 @@ Configure Git settings
     $ git config --global core.ignorecase false
 
 ### SSH
-
-Install ssh-copy-id
-
-    $ brew install ssh-copy-id
 
 Generate a key pair
 
@@ -48,10 +50,6 @@ Host *
 ```
 
 ### Zsh
-
-Update Mac Zsh
-
-    $ brew install zsh
 
 Switch to Zsh
 
@@ -87,36 +85,12 @@ Uncheck the box that says "Italic text"
 
 ### Zsh Plugins
 
+TODO: Install zplug
+
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-### htop
-
-    $ brew install htop
-
-### ripgrep
-
-    $ brew install ripgrep
-
-### sed
-
-    $ brew install gnu-sed
-
-### jq
-
-    $ brew install jq
-
 ### Vim
-
-Update Mac Vim
-
-    $ brew install vim
-
-Install Neovim
-
-    $ brew install neovim
-
-vimrc
 
 * [~/.vimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vimrc)
 
@@ -127,12 +101,6 @@ https://github.com/junegunn/vim-plug
 Run `:PlugInstall` in Vim to fetch and install all plugins
 
 ### tmux
-
-Install tmux
-
-    $ brew install tmux
-
-tmux config
 
 * [~/.tmux.conf](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.tmux.conf)
 
@@ -197,6 +165,8 @@ https://code.visualstudio.com
 
 ### Homebrew Commands
 
+* `brew bundle` - Install dependencies in a Brewfile, use `--file` to specify a path
+* `brew bundle cleanup` - Show packages not in Brewfile, use `--force` to uninstall
 * `brew search [package-name]` - Search for a package
 * `brew install [package-name]` - Install a package
 * `brew uninstall [package-name]` - Uninstall a package
