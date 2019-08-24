@@ -102,6 +102,10 @@ Uncheck the box that says "Italic text"
 
     $ brew install gnu-sed
 
+### jq
+
+    $ brew install jq
+
 ### Vim
 
 Update Mac Vim
