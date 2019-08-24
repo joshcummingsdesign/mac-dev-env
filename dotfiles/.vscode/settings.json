@@ -59,48 +59,6 @@
       {
           "before": [
               "<leader>",
-              "c",
-              "c"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "editor.action.addCommentLine",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "c",
-              "u"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "editor.action.removeCommentLine",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "c",
-              "<space>"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "editor.action.commentLine",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
               "<space>"
           ],
           "after": [],
@@ -197,48 +155,6 @@
           "commands": [
               {
                   "command": "editor.action.insertLineBefore",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "c",
-              "c"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "editor.action.addCommentLine",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "c",
-              "u"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "editor.action.removeCommentLine",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "c",
-              "<space>"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "editor.action.commentLine",
                   "args": []
               }
           ]
@@ -631,104 +547,6 @@
           "commands": [
               {
                   "command": "workbench.action.files.copyPathOfActiveFile",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "g",
-              "b"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "git.checkout",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "g",
-              "c"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "git.commit",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "g",
-              "d"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "git.deleteBranch",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "g",
-              "f"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "git.fetch",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "g",
-              "i"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "git.init",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "g",
-              "m"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "git.merge",
-                  "args": []
-              }
-          ]
-      },
-      {
-          "before": [
-              "<leader>",
-              "g",
-              "p"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "git.publish",
                   "args": []
               }
           ]

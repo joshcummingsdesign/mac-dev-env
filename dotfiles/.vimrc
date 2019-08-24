@@ -1,22 +1,22 @@
 " ------------ Plugins ------------ {{{
 call plug#begin('~/.vim/plugged')
 
-Plug 'lifepillar/vim-solarized8'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-fugitive'
-Plug 'scrooloose/nerdtree'
-Plug 'scrooloose/nerdcommenter'
-Plug 'jiangmiao/auto-pairs'
 Plug 'easymotion/vim-easymotion'
-Plug 'justinmk/vim-sneak'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'sheerun/vim-polyglot'
+Plug 'jiangmiao/auto-pairs'
+Plug 'justinmk/vim-sneak'
+Plug 'leafgarland/typescript-vim'
+Plug 'lifepillar/vim-solarized8'
 Plug 'mattn/emmet-vim'
 Plug 'mxw/vim-jsx'
-Plug 'leafgarland/typescript-vim'
+Plug 'scrooloose/nerdtree'
+Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
@@ -195,9 +195,6 @@ map <Leader>jj <Plug>(easymotion-bd-f)
 
 " NERDTree
 map <silent> <C-\> :NERDTreeToggle<CR>
-
-" NERDCommenter
-map <leader>cN <plug>NERDCommenterNested
 
 " Reload .vimrc
 nnoremap <Leader>R :source $MYVIMRC<CR>
