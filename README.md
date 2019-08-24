@@ -51,13 +51,11 @@ Host *
 
 ### Zsh
 
+* [dotfiles/.zshrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.zshrc)
+
 Switch to Zsh
 
     $ chsh -s /bin/zsh
-
-zshrc
-
-* [dotfiles/.zshrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.zshrc)
 
 ### Oh My Zsh
 
@@ -71,7 +69,7 @@ https://github.com/robbyrussell/oh-my-zsh
 
 In iTerm2 go to `Preferences > Profiles > Colors` and add your theme under `Color Presets`
 
-#### Powerline
+#### Font
 
 [Download the FiraCode font family](https://github.com/tonsky/FiraCode)
 
@@ -81,12 +79,11 @@ Check the box that says "Use ligatures"
 
 Uncheck the box that says "Italic text"
 
-[Install the Powerlevel9k theme](https://github.com/Powerlevel9k/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh)
-
 ### Zsh Plugins
 
 TODO: Install zplug
 
+* [powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k/wiki/Install-Instructions#option-2-install-for-oh-my-zsh)
 * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
