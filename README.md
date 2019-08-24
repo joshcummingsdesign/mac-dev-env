@@ -6,13 +6,11 @@
 
 ### Docker Desktop
 
-https://hub.docker.com/editions/community/docker-ce-desktop-mac
+* [Install Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
 
 ### Homebrew
 
-Install Homebrew
-
-https://brew.sh
+* [Install Homebrew](https://brew.sh)
 
 Copy the Brewfile to your home directory
 
@@ -21,16 +19,6 @@ Copy the Brewfile to your home directory
 Install dependencies
 
     $ brew bundle --file=~/Brewfile
-
-### Git
-
-Configure Git settings
-
-    $ git config --global user.name "myusername"
-    $ git config --global user.email "email@example.com"
-    $ git config --global push.default simple
-    $ git config --global core.editor "vim"
-    $ git config --global core.ignorecase false
 
 ### SSH
 
@@ -45,21 +33,31 @@ Host *
     UseKeychain yes
 ```
 
+### Git
+
+Configure Git settings
+
+    $ git config --global user.name "myusername"
+    $ git config --global user.email "email@example.com"
+    $ git config --global push.default simple
+    $ git config --global core.editor "vim"
+    $ git config --global core.ignorecase false
+
 ### iTerm2
 
-https://www.iterm2.com
+* [Install iTerm2](https://www.iterm2.com)
 
-#### Color Scheme
+#### Theme
 
-* [Solarized](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
+* [Solarized Dark](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
 
 In iTerm2 go to `Preferences > Profiles > Colors` and add your theme under `Color Presets`
 
 #### Font
 
-[Download the FiraCode font family](https://github.com/tonsky/FiraCode)
+* [FiraCode](https://github.com/tonsky/FiraCode)
 
-In iTerm2 go to `Preferences > Profiles > Text` and change the font to Fira Code
+In iTerm2 go to `Preferences > Profiles > Text` and change your font
 
 Check the box that says "Use ligatures"
 
@@ -67,7 +65,9 @@ Uncheck the box that says "Italic text"
 
 ### Zsh
 
-* [dotfiles/.zshrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.zshrc)
+Copy the .zshrc to your home directory
+
+    $ cp dotfiles/.zshrc ~/
 
 Switch to Zsh
 
@@ -75,7 +75,7 @@ Switch to Zsh
 
 #### Oh My Zsh
 
-https://github.com/robbyrussell/oh-my-zsh
+* [Install Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 #### Zsh Plugins
 
@@ -87,29 +87,31 @@ TODO: Install zplug
 
 ### Vim
 
-* [~/.vimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vimrc)
+Copy the .vimrc to your home directory
 
-Install vim-plug
+    $ cp dotfiles/.vimrc ~/
 
-https://github.com/junegunn/vim-plug
+#### Vim Plugins
+
+* [Install vim-plug](https://github.com/junegunn/vim-plug)
 
 Run `:PlugInstall` in Vim to fetch and install all plugins
 
 ### tmux
 
-* [~/.tmux.conf](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.tmux.conf)
+Copy the .tmux.conf to your home directory
 
-Install tpm
+    $ cp dotfiles/.tmux.conf ~/
 
-https://github.com/tmux-plugins/tpm
+#### tmux Plugins
+
+* [Install tpm](https://github.com/tmux-plugins/tpm)
 
 Press `prefix + I` in a tmux session to fetch and install all plugins
 
 ### Node.js
 
-Install nvm
-
-https://github.com/creationix/nvm
+* [Install nvm](https://github.com/creationix/nvm)
 
 Install a version of Node.js
 
@@ -121,7 +123,7 @@ Set a default Node.js version
 
 ### Visual Studio Code
 
-https://code.visualstudio.com
+* [Install Visual Studio Code](https://code.visualstudio.com)
 
 #### Font
 
