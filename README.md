@@ -22,10 +22,6 @@ Install dependencies
 
     $ brew bundle --file=~/Brewfile
 
-### iTerm2
-
-https://www.iterm2.com
-
 ### Git
 
 Configure Git settings
@@ -49,19 +45,9 @@ Host *
     UseKeychain yes
 ```
 
-### Zsh
+### iTerm2
 
-* [dotfiles/.zshrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.zshrc)
-
-Switch to Zsh
-
-    $ chsh -s /bin/zsh
-
-### Oh My Zsh
-
-https://github.com/robbyrussell/oh-my-zsh
-
-### Zsh Theme
+https://www.iterm2.com
 
 #### Color Scheme
 
@@ -79,7 +65,19 @@ Check the box that says "Use ligatures"
 
 Uncheck the box that says "Italic text"
 
-### Zsh Plugins
+### Zsh
+
+* [dotfiles/.zshrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.zshrc)
+
+Switch to Zsh
+
+    $ chsh -s /bin/zsh
+
+#### Oh My Zsh
+
+https://github.com/robbyrussell/oh-my-zsh
+
+#### Zsh Plugins
 
 TODO: Install zplug
 
