@@ -87,6 +87,10 @@ Manage multiple runtime versions for Node.js, Python, Ruby, etc.
 
 ### Visual Studio Code
 
+Install extensions
+
+    $ ./scripts/vscodex.sh
+
 #### Settings
 
 * [settings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/settings.json)
@@ -94,22 +98,3 @@ Manage multiple runtime versions for Node.js, Python, Ruby, etc.
 #### Keybindings
 
 * [keybindings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/keybindings.json)
-
-#### Extensions
-
-* advanced-new-file
-* Better Solarized Dark
-* change-case
-* Code Spell Checker
-* Debugger for Chrome
-* Docker
-* EditorConfig for VS Code
-* ES7 React/Redux/GraphQL/React-Native snippets
-* Go to Next/Previous Member
-* GraphQL for VSCode
-* Prettier - Code formatter
-* Rewrap
-* Vim
-* VS Code CSS Comments
-* vscode-styled-components
-* vscode-viml-syntax
