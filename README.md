@@ -87,10 +87,6 @@ Manage multiple runtime versions for Node.js, Python, Ruby, etc.
 
 ### Visual Studio Code
 
-#### Font
-
-* [FiraCode](https://github.com/tonsky/FiraCode)
-
 #### Settings
 
 * [settings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/settings.json)
