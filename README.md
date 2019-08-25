@@ -81,9 +81,9 @@ Run `:PlugInstall` in Vim to fetch and install all plugins
 
 Press `prefix + I` in a tmux session to fetch and install all plugins
 
-### [asdf-vm (included)](https://asdf-vm.com/#/core-manage-plugins)
+### asdf-vm
 
-Manage multiple runtime versions for Node.js, Python, Ruby, etc.
+Included is [asdf-vm](https://asdf-vm.com/#/core-manage-plugins), which you can use to manage multiple runtime versions for Node.js, Python, Ruby, etc.
 
 ### Visual Studio Code
 
