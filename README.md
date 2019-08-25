@@ -83,7 +83,7 @@ Press `prefix + I` in a tmux session to fetch and install all plugins
 
 ### asdf-vm
 
-Included is [asdf-vm](https://asdf-vm.com/#/core-manage-plugins), which you can use to manage multiple runtime versions for Node.js, Python, Ruby, etc.
+Included is [asdf-vm](https://asdf-vm.com/#/core-manage-plugins), which you can use to manage multiple runtime versions of Node.js, Python, Ruby, etc.
 
 ### Visual Studio Code
 
