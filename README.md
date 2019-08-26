@@ -41,6 +41,8 @@ Configure Git settings
 
 ### Zsh
 
+* [.zshrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.zshrc)
+
 Go to `System Preferences > Users & Groups`
 
 Right click on your user and select `Advanced Options`
