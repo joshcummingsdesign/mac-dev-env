@@ -79,6 +79,7 @@ bindkey -M viins 'fd' vi-cmd-mode
 bindkey -M vicmd 'k' history-substring-search-up
 bindkey -M vicmd 'j' history-substring-search-down
 bindkey -M vicmd '?' history-incremental-search-backward
+bindkey '^r' autosuggest-accept
 
 
 # Vim buffer
