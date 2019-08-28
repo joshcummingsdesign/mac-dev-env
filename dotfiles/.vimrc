@@ -21,7 +21,7 @@ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 
-" ------------ Color Scheme ------------ {{{
+" ------------ Theme ------------ {{{
 set termguicolors " Use 24-bit (true-color) mode
 syntax on
 set background=dark
