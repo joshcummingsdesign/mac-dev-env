@@ -10,7 +10,7 @@
       "when": "listFocus && !inputFocus"
   },
   {
-      "key": "ctrl+\\",
+      "key": "ctrl+cmd+\\",
       "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -229,5 +229,13 @@
       "key": "cmd+enter",
       "command": "-breadcrumbs.revealFocused",
       "when": "breadcrumbsActive && breadcrumbsVisible"
+  },
+  {
+      "key": "ctrl+\\",
+      "command": "workbench.view.explorer"
+  },
+  {
+      "key": "shift+cmd+e",
+      "command": "-workbench.view.explorer"
   }
 ]

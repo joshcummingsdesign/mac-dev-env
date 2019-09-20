@@ -12,6 +12,7 @@
   "editor.lineNumbers": "relative",
   "editor.minimap.enabled": false,
   "editor.renderFinalNewline": false,
+  "editor.gotoLocation.multiple": "goto",
   "explorer.confirmDragAndDrop": false,
   "search.location": "sidebar",
   "files.trimTrailingWhitespace": true,
