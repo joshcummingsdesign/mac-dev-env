@@ -49,6 +49,7 @@
   },
   "typescript.updateImportsOnFileMove.enabled": "never",
   "vim.enableNeovim": true,
+  "vim.neovimPath": "/usr/local/bin/nvim",
   "vim.easymotion": true,
   "vim.easymotionMarkerBackgroundColor": "#C25428",
   "vim.easymotionMarkerForegroundColorOneChar": "#FCF6E4",
