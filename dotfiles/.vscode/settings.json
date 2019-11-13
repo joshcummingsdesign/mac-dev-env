@@ -20,10 +20,6 @@
   "breadcrumbs.enabled": true,
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": false,
-  "prettier.singleQuote": true,
-  "prettier.jsxBracketSameLine": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.printWidth": 100,
   "[json]": {
       "editor.formatOnSave": true,
       "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -162,18 +158,18 @@
           ]
       },
       {
-        "before": [
-          "<leader>",
-          "s",
-          "c"
-        ],
-        "after": [],
-        "commands": [
-          {
-            "command": "cSpell.toggleEnableSpellChecker",
-            "args": []
-          }
-        ]
+          "before": [
+              "<leader>",
+              "s",
+              "c"
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "cSpell.toggleEnableSpellChecker",
+                  "args": []
+              }
+          ]
       },
       {
           "before": [
