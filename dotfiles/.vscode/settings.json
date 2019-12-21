@@ -12,7 +12,11 @@
   "editor.lineNumbers": "relative",
   "editor.minimap.enabled": false,
   "editor.renderFinalNewline": false,
-  "editor.gotoLocation.multiple": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
   "explorer.confirmDragAndDrop": false,
   "search.location": "sidebar",
   "files.trimTrailingWhitespace": true,
@@ -158,18 +162,18 @@
           ]
       },
       {
-          "before": [
-              "<leader>",
-              "s",
-              "c"
-          ],
-          "after": [],
-          "commands": [
-              {
-                  "command": "cSpell.toggleEnableSpellChecker",
-                  "args": []
-              }
-          ]
+        "before": [
+          "<leader>",
+          "s",
+          "c"
+        ],
+        "after": [],
+        "commands": [
+          {
+            "command": "cSpell.toggleEnableSpellChecker",
+            "args": []
+          }
+        ]
       },
       {
           "before": [
