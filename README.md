@@ -93,6 +93,10 @@ Install extensions
 
     $ ./scripts/vscodex.sh
 
+Add tmux persistent session script to local bin
+
+    $ cp ./scripts/tmux-session.sh /usr/local/bin/tmux-session
+
 #### Settings
 
 * [settings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/settings.json)
