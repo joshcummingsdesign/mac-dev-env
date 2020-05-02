@@ -249,11 +249,11 @@
       "when": "!terminalFocus"
   },
   {
-      "key": "ctrl+shift+w",
+      "key": "ctrl+shift+q",
       "command": "workbench.action.terminal.toggleTerminal"
   },
   {
-    "key": "ctrl+shift+q",
+    "key": "ctrl+shift+w",
     "command": "workbench.action.toggleMaximizedPanel"
   }
 ]
