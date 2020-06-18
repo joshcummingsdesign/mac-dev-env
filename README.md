@@ -38,7 +38,7 @@ Configure Git settings
     $ git config --global push.default simple
     $ git config --global core.editor "vim"
     $ git config --global core.ignorecase false
-    $ git config pull.rebase false
+    $ git config --global pull.rebase false
 
 ### Zsh
 
