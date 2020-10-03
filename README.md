@@ -110,7 +110,7 @@ Check the box that says "Enable font ligatures"
 * [Install Intellimacs](https://github.com/MarcoIeni/intellimacs)
 
 Go to `Preferences > Keymap` and change the following:
-* Search Everywhere - Ctrl+p
-* Project - Ctrl+\
+* Search Everywhere - `Ctrl+p`
+* Project - `Ctrl+\`
 
 Go to `Preferences > Editor > Vim Emulation` and resolve any keymap conflicts
