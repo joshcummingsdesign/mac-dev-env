@@ -1,9 +1,5 @@
 # Mac OS X Development Environment
 
-### Xcode Command Line Tools
-
-    $ xcode-select --install
-
 ### Docker Desktop
 
 * [Install Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
@@ -11,10 +7,6 @@
 ### Homebrew
 
 * [Install Homebrew](https://brew.sh)
-
-Install dependencies
-
-    $ brew bundle
 
 ### SSH
 
@@ -28,6 +20,10 @@ Add the following to your `~/.ssh/config`
 Host *
     UseKeychain yes
 ```
+
+Install dependencies
+
+    $ brew bundle
 
 ### Git
 
@@ -48,7 +44,9 @@ Go to `System Preferences > Users & Groups`
 
 Right click on your user and select `Advanced Options`
 
-Change `Login shell` to `/usr/local/bin/zsh`
+Change `Login shell` to `/bin/zsh`
+
+[Update zsh permissions](https://github.com/zsh-users/zsh-completions/issues/433#issuecomment-600582607)
 
 ### iTerm2
 
@@ -88,20 +86,10 @@ Press `prefix + I` in a tmux session to fetch and install all plugins
 
 Included is [asdf-vm](https://asdf-vm.com/#/core-manage-plugins), which you can use to manage multiple runtime versions of Node.js, Python, Ruby, etc.
 
-### Visual Studio Code
+### PHPStorm
 
-Install extensions
+Install phpstorm command
 
-    $ ./scripts/vscodex.sh
+    $ cp scripts/phpstorm.sh /usr/local/bin/phpstorm
 
-Add tmux persistent session script to local bin
-
-    $ cp ./scripts/tmux-session.sh /usr/local/bin/tmux-session
-
-#### Settings
-
-* [settings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/settings.json)
-
-#### Keybindings
-
-* [keybindings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/keybindings.json)
+Install `IdeaVim` plugin

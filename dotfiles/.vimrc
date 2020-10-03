@@ -1,11 +1,10 @@
-" ------------ Plugins ------------ {{{
+" ------------ Plugins ------------
 call plug#begin('~/.vim/plugged')
 
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'jiangmiao/auto-pairs'
-Plug 'justinmk/vim-sneak'
 Plug 'leafgarland/typescript-vim'
 Plug 'lifepillar/vim-solarized8'
 Plug 'mattn/emmet-vim'
@@ -21,15 +20,14 @@ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 
-" ------------ Theme ------------ {{{
+" ------------ Theme ------------
 set termguicolors " Use 24-bit (true-color) mode
 syntax on
 set background=dark
 colorscheme solarized8
-"}}}
 
 
-" ------------ Plugin Settings ------------ {{{
+" ------------ Plugin Settings ------------
 " -- Airline --
 let g:airline_theme='base16_solarized'
 let g:airline_powerline_fonts = 1
@@ -55,7 +53,6 @@ let g:ctrlp_match_window_reversed = 0
 " -- NERDTree --
 " Show dotfiles
 let NERDTreeShowHidden = 1
-"}}}
 
 " -- EasyMotion --
 let g:EasyMotion_do_shade = 0
@@ -63,18 +60,11 @@ hi EasyMotionTarget ctermbg=red ctermfg=white
 hi EasyMotionTarget2First ctermbg=red ctermfg=white
 hi EasyMotionTarget2Second ctermbg=red ctermfg=white
 
-" -- Sneak --
-" Enable Smart Case Sneak
-let g:sneak#use_ic_scs = 1
-" Turn off Sneak highlight
-highlight link Sneak Normal
-
 " -- Emmet --
 let g:user_emmet_leader_key='<C-H>'
-"}}}
 
 
-" ------------ General Config ------------ {{{
+" ------------ General Config ------------
 set autoread                   " Reload files changed outside vim
 set backspace=indent,eol,start " Allow backspace in insert mode
 set browsedir=buffer           " Browse should default to current buffer
@@ -96,10 +86,9 @@ set switchbuf=useopen          " Reveal already-opened files from quickfix windo
 set spell spelllang=en_us      " Spell checking
 set splitbelow                 " Open new splits on the bottom
 set viminfo='100,f1            " Save up to 100 marks, enable capital marks
-"}}}
 
 
-" ------------ Spacing and Indentation ------------ {{{
+" ------------ Spacing and Indentation ------------
 set nowrap                   " Don't wrap lines
 set linebreak                " Wrap lines at word boundaries if necessary
 set nolist                   " Don't show trailing whitespace (list disables linebreak)
@@ -110,39 +99,34 @@ set shiftwidth=2             " Number of spaces to use for each indent step
 set softtabstop=2            " Number of spaces that a <Tab> counts for
 set expandtab                " Use spaces to insert a <Tab>
 set listchars=tab:»·,trail:· " Set characters to use for trailing tabs and spaces
-"}}}
 
 
-" ------------ Search Settings ------------ {{{
+" ------------ Search Settings ------------
 set incsearch  " Find the next match as we type the search
 set ignorecase " Ignore Case
 set smartcase  " Enable Smart Case Search
-"}}}
 
 
-" ------------ Scroll Settings ------------ {{{
+" ------------ Scroll Settings ------------
 set scrolloff=3      " Keep cursor 3 lines away from top and bottom while scrolling
 set sidescrolloff=15 " Keep 15 columns to left/right of cursor while scrolling
 set sidescroll=1     " Smooth horizontal scrolling
-"}}}
 
 
-" ------------ Editor Settings ------------ {{{
+" ------------ Editor Settings ------------
 autocmd BufWritePre * %s/\s\+$//e " Remove trailing whitespace on save
-"}}}
 
 
-" ------------ Cursor Settings ------------ {{{
+" ------------ Cursor Settings ------------
 " Set cursor to line in insert mode
 let &t_SI = "\e[5 q"
 " Set cursor to block in nomral mode
 let &t_EI = "\e[2 q"
 " Set cursor to block on vim start
 autocmd VimEnter * silent exec "! echo -ne '\e[2 q'"
-"}}}
 
 
-" ------------ Key Bindings ------------ {{{
+" ------------ Key Bindings ------------
 " Leader
 let mapleader = "\<Space>"
 
@@ -198,4 +182,3 @@ map <silent> <C-\> :NERDTreeToggle<CR>
 
 " Reload .vimrc
 nnoremap <Leader>R :source $MYVIMRC<CR>
-"}}}
