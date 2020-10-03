@@ -34,3 +34,8 @@ nnoremap O O<Esc>
 " Page navigation
 nnoremap <silent> <CR> <C-f>
 nnoremap <silent> <Backspace> <C-b>
+
+" EasyMotion
+map <Leader>jw <Plug>(easymotion-bd-w)
+map <Leader>jl <Plug>(easymotion-bd-jk)
+map <Leader>jj <Plug>(easymotion-bd-f)
