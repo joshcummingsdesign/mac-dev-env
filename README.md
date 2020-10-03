@@ -64,8 +64,6 @@ Go to `Preferences > Profiles > Text` and change `Font` to "Fira Code".
 
 Check the box that says "Use ligatures"
 
-Uncheck the box that says "Italic text"
-
 ### Vim
 
 * [.vimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vimrc)
@@ -88,8 +86,31 @@ Included is [asdf-vm](https://asdf-vm.com/#/core-manage-plugins), which you can 
 
 ### PHPStorm
 
-Install phpstorm command
+
+Install `phpstorm` command
 
     $ cp scripts/phpstorm.sh /usr/local/bin/phpstorm
 
-Install `IdeaVim` plugin
+#### Font
+
+Go to `Preferences > Editor > Font` and change `Font` to "Fira Code".
+
+Check the box that says "Enable font ligatures"
+
+#### Plugins
+
+* IdeaVim
+* IdeaVim-EasyMotion
+* Solarized Themes
+
+#### Vim
+
+* [.ideavimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.ideavimrc)
+
+* [Install Intellimacs](https://github.com/MarcoIeni/intellimacs)
+
+Go to `Preferences > Keymap` and change the following:
+* Search Everywhere - Ctrl+p
+* Project - Ctrl+\
+
+Go to `Preferences > Editor > Vim Emulation` and resolve any keymap conflicts
