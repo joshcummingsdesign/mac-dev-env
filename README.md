@@ -29,7 +29,7 @@ Install dependencies
 
 Configure Git settings
 
-    $ git config --global user.name "myusername"
+    $ git config --global user.name "Your Name"
     $ git config --global user.email "email@example.com"
     $ git config --global push.default simple
     $ git config --global core.editor "vim"
