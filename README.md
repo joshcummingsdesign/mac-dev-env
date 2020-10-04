@@ -110,7 +110,13 @@ Check the box that says "Enable font ligatures"
 * [Install Intellimacs](https://github.com/MarcoIeni/intellimacs)
 
 Go to `Preferences > Keymap` and change the following:
-* Search Everywhere - `Ctrl+p`
+* Search Everywhere - `Ctrl+P`
 * Project - `Ctrl+\`
+* Up - `Ctrl+K`
+* Down - `Ctrl+J`
+* Expand Tree Node - `Ctrl+O`
+* Collapse Tree Node - `Ctrl+I`
 
 Go to `Preferences > Editor > Vim Emulation` and resolve any keymap conflicts
+
+// TODO: Version PHPStorm settings

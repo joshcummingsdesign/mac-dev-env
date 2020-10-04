@@ -78,7 +78,6 @@ set history=1000               " Store lots of :cmdline history
 set lazyredraw                 " Buffer screen updates
 set nrformats-=octal           " Increase floats w/ ctrl-a
 set number                     " Show line number
-set relativenumber             " Relative line numbers
 set pastetoggle=<F2>           " In insert mode, press <F2> to go to paste mode
 set selection=old              " Stop that annoying thing where vim selects the next line
 set synmaxcol=511              " Don't apply syntax coloring after the 512th column
