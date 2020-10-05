@@ -1,4 +1,4 @@
-# ------------ Init ------------ {{{
+# ------------ Init ------------
 # stop these errors https://github.com/asdf-vm/asdf/issues/266
 # & make it fast https://carlosbecker.com/posts/speeding-up-zsh/
 autoload -Uz compinit
@@ -7,10 +7,9 @@ if [ $(date +'%j') != $(stat -f '%Sm' -t '%j' ~/.zcompdump) ]; then
 else
 	compinit -C;
 fi;
-#}}}
 
 
-# ------------ Plugins ------------ {{{
+# ------------ Plugins ------------
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
@@ -33,10 +32,9 @@ if ! zplug check --verbose; then
 fi
 
 zplug load
-#}}}
 
 
-# ------------ Theme ------------ {{{
+# ------------ Theme ------------
 # Use 24-bit (true-color) mode
 export TERM="xterm-256color"
 
@@ -44,10 +42,9 @@ export TERM="xterm-256color"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv context dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs)
-#}}}
 
 
-# ------------ Settings ------------ {{{
+# ------------ Settings ------------
 # User config
 DEFAULT_USER=`whoami`
 
@@ -69,10 +66,9 @@ set-cursor () {
   cursor-line
 }
 precmd_functions+=(set-cursor)
-#}}}
 
 
-# ------------ Key Bindings ------------ {{{
+# ------------ Key Bindings ------------
 # Vi mode
 export KEYTIMEOUT=10
 bindkey -v
@@ -87,10 +83,9 @@ bindkey '^r' autosuggest-accept
 autoload -U edit-command-line
 zle -N edit-command-line
 bindkey -M vicmd "v" edit-command-line
-#}}}
 
 
-# ------------ Aliases ------------ {{{
+# ------------ Aliases ------------
 # File system
 alias l="ls -lah"
 alias grep='grep --color'
@@ -101,14 +96,15 @@ alias dstroy="find . -name '.DS_Store' -type f -delete"
 # tmux
 alias ta="tmux attach-session -t"
 alias tl="tmux list-sessions"
-#}}}
 
 
-# ------------ 3rd Party ------------ {{{
+# ------------ 3rd Party ------------
 # gnu-sed
 PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 
 # asdf
 . /usr/local/opt/asdf/asdf.sh
 . /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
-#}}}
+
+# homebrew
+export PATH="/usr/local/sbin:$PATH"

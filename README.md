@@ -44,9 +44,7 @@ Go to `System Preferences > Users & Groups`
 
 Right click on your user and select `Advanced Options`
 
-Change `Login shell` to `/bin/zsh`
-
-[Update zsh permissions](https://github.com/zsh-users/zsh-completions/issues/433#issuecomment-600582607)
+Change `Login shell` to `/usr/local/bin/zsh`
 
 ### iTerm2
 
