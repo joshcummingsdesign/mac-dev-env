@@ -89,32 +89,8 @@ Install `phpstorm` command
 
     $ cp scripts/phpstorm.sh /usr/local/bin/phpstorm
 
-#### Font
-
-Go to `Preferences > Editor > Font` and change `Font` to "Fira Code".
-
-Check the box that says "Enable font ligatures"
-
-#### Plugins
-
-* IdeaVim
-* IdeaVim-EasyMotion
-* Solarized Themes
-
-#### Vim
-
 * [.ideavimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.ideavimrc)
 
 * [Install Intellimacs](https://github.com/MarcoIeni/intellimacs)
 
-Go to `Preferences > Keymap` and change the following:
-* Search Everywhere - `Ctrl+P`
-* Project - `Ctrl+\`
-* Up - `Ctrl+K`
-* Down - `Ctrl+J`
-* Expand Tree Node - `Ctrl+O`
-* Collapse Tree Node - `Ctrl+I`
-
-Go to `Preferences > Editor > Vim Emulation` and resolve any keymap conflicts
-
-// TODO: Version PHPStorm settings
+* Go to `File > Manage IDE Settings > Sync Settings to JetBrains Account`, log in to your JetBrains account, check `Sync plugins silently`, and then choose `Get Settings from Account`.
