@@ -1,6 +1,7 @@
 tap "homebrew/cask-fonts"
 cask "font-fira-code"
 cask "iterm2"
+cask "local"
 cask "phpstorm"
 brew "asdf"
 brew "ffmpeg"
