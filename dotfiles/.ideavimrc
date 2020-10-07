@@ -20,6 +20,7 @@ nnoremap <leader>gl :action Vcs.Show.Log<CR>
 vnoremap <leader>gl :action Vcs.Show.Log<CR>
 nnoremap <c-p> :action SearchEverywhere<CR>
 vnoremap <c-p> :action SearchEverywhere<CR>
+nnoremap <leader>gh :action QuickActions<CR>
 
 
 " ------------ Key Bindings ------------
