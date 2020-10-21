@@ -62,6 +62,8 @@ Go to `Preferences > Profiles > Text` and change `Font` to "Fira Code".
 
 Check the box that says "Use ligatures"
 
+Uncheck the box that says "Italic text"
+
 ### Vim
 
 * [.vimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vimrc)
