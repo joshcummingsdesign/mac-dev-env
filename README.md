@@ -1,4 +1,4 @@
-# Mac OS X Development Environment
+# macOS Development Environment
 
 ### Docker Desktop
 
