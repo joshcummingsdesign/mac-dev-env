@@ -8,6 +8,10 @@
 
 * [Install Homebrew](https://brew.sh)
 
+Install dependencies
+
+    $ brew bundle
+
 ### SSH
 
 Generate a key pair
@@ -20,10 +24,6 @@ Add the following to your `~/.ssh/config`
 Host *
     UseKeychain yes
 ```
-
-Install dependencies
-
-    $ brew bundle
 
 ### Git
 
