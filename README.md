@@ -82,15 +82,16 @@ Press `prefix + I` in a tmux session to fetch and install all plugins
 
 Included is [asdf-vm](https://asdf-vm.com/#/core-manage-plugins), which you can use to manage multiple runtime versions of Node.js, Python, Ruby, etc.
 
-### PHPStorm
+### Visual Studio Code
 
+Install extensions
 
-Install `phpstorm` command
+    $ ./scripts/vscodex.sh
 
-    $ cp scripts/phpstorm.sh /usr/local/bin/phpstorm
+#### Settings
 
-* [.ideavimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.ideavimrc)
+* [settings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/settings.json)
 
-* [Install Intellimacs](https://github.com/MarcoIeni/intellimacs)
+#### Keybindings
 
-* Go to `File > Manage IDE Settings > Sync Settings to JetBrains Account`, log in to your JetBrains account, check `Sync plugins silently`, and then choose `Get Settings from Account`.
+* [keybindings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/keybindings.json)
