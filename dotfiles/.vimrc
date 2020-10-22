@@ -1,6 +1,7 @@
 " ------------ Plugins ------------
 call plug#begin('~/.vim/plugged')
 
+" Vim
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
@@ -18,6 +19,11 @@ Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-scripts/ReplaceWithRegister'
+
+" Neovim
+if has ('nvim')
+  Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+endif
 
 call plug#end()
 

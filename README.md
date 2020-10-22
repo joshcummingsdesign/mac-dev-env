@@ -70,7 +70,11 @@ Uncheck the box that says "Italic text"
 
 * [Install vim-plug](https://github.com/junegunn/vim-plug)
 
-Run `:PlugInstall` in Vim to fetch and install all plugins
+Symlink .vimrc for Neovim
+
+    $ mkdir -p ~/.config/nvim && ln -s ~/.vimrc ~/.config/nvim/init.vim
+
+Run `:PlugInstall` in both Vim and Neovim to fetch and install all plugins
 
 ### tmux
 
