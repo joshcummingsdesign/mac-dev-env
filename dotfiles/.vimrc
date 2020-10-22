@@ -65,6 +65,9 @@ hi EasyMotionTarget2Second ctermbg=red ctermfg=white
 " -- Emmet --
 let g:user_emmet_leader_key='<C-H>'
 
+" -- Sneak --
+highlight link Sneak None
+
 
 " ------------ General Config ------------
 set autoread                   " Reload files changed outside vim
