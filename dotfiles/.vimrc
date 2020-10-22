@@ -74,6 +74,11 @@ let g:user_emmet_leader_key='<C-H>'
 " -- Sneak --
 highlight link Sneak None
 
+" -- Firenvim --
+let s:fc = {}
+let g:firenvim_config = { 'localSettings': s:fc }
+let s:fc['.*'] = { 'takeover': 'never' }
+
 
 " ------------ General Config ------------
 set autoread                   " Reload files changed outside vim
