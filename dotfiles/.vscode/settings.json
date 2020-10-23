@@ -73,6 +73,7 @@
       "javascript": "javascriptreact"
   },
   "typescript.updateImportsOnFileMove.enabled": "never",
+  "php.suggest.basic": false,
   "vim.enableNeovim": true,
   "vim.neovimPath": "/usr/local/bin/nvim",
   "vim.replaceWithRegister": true,
@@ -1298,7 +1299,10 @@
                   "variable.other",
                   "variable.other.readwrite",
                   "variable.parameter"
-              ]
+              ],
+              "settings": {
+                "fontStyle": "",
+            }
           }
       ]
   }
