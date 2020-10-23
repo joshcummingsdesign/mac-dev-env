@@ -49,6 +49,7 @@
   "breadcrumbs.enabled": true,
   "zenMode.hideLineNumbers": false,
   "zenMode.hideStatusBar": false,
+  "php-cs-fixer.onSave": true,
   "[json]": {
       "editor.formatOnSave": true,
       "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -73,7 +74,6 @@
       "javascript": "javascriptreact"
   },
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "php.suggest.basic": false,
   "vim.enableNeovim": true,
   "vim.neovimPath": "/usr/local/bin/nvim",
   "vim.replaceWithRegister": true,
@@ -1301,8 +1301,8 @@
                   "variable.parameter"
               ],
               "settings": {
-                "fontStyle": "",
-            }
+                  "fontStyle": "",
+              }
           }
       ]
   }

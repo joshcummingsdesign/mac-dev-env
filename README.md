@@ -94,6 +94,8 @@ Install extensions
 
     $ ./scripts/vscodex.sh
 
+Disable the built-in VSCode PHP Language Features.
+
 #### Settings
 
 * [settings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/settings.json)
