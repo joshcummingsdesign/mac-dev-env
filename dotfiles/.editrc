@@ -1,0 +1,5 @@
+# ------------ Key Bindings ------------
+# Vi mode
+bind -v
+bind "^R" em-inc-search-prev
+bind \\t rl_complete
