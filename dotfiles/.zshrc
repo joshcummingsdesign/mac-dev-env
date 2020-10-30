@@ -67,6 +67,9 @@ set-cursor () {
 }
 precmd_functions+=(set-cursor)
 
+# Turn off beep
+unsetopt BEEP
+
 
 # ------------ Key Bindings ------------
 # Vi mode

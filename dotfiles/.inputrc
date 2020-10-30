@@ -1,3 +1,7 @@
+# ------------ Settings ------------
+# Turn off beep
+set bell-style none
+
 # ------------ Key Bindings ------------
 # Vi mode
 set editing-mode vi
