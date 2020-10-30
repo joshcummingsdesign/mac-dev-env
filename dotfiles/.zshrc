@@ -78,7 +78,6 @@ bindkey -M vicmd 'j' history-substring-search-down
 bindkey -M vicmd '?' history-incremental-search-backward
 bindkey '^r' autosuggest-accept
 
-
 # Vim buffer
 autoload -U edit-command-line
 zle -N edit-command-line
