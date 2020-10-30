@@ -2,7 +2,14 @@
 # Vi mode
 set editing-mode vi
 set show-mode-in-prompt on
+
+# Insert mode
+set keymap vi-insert
+"\C-l": clear-screen
+
+# Command mode
 set keymap vi-command
+"\C-l": clear-screen
 "k": history-substring-search-backward
 "j": history-substring-search-forward
 "?": non-incremental-reverse-search-history
