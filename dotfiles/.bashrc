@@ -18,4 +18,4 @@ alias l="ls -lah"
 alias grep="grep --color"
 
 # wp-cli
-alias wpmysql='echo -ne "\e[2 q" && wp db cli'
+alias wpmysql="wp db cli"

@@ -3,3 +3,4 @@
 bind -v
 bind "^R" em-inc-search-prev
 bind \\t rl_complete
+bind "^L" ed-clear-screen
