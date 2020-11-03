@@ -108,7 +108,20 @@
                   "args": []
               }
           ]
-      }
+      },
+      {
+          "before": [
+              "<leader>",
+              "\""
+          ],
+          "after": [],
+          "commands": [
+              {
+                  "command": "workbench.action.showCommands",
+                  "args": []
+              }
+          ]
+      },
   ],
   "vim.normalModeKeyBindings": [
       {
@@ -232,7 +245,7 @@
               "<C-b>"
           ]
       },
-{
+      {
           "before": [
               "<leader>",
               "\""
