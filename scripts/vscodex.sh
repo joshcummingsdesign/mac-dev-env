@@ -14,6 +14,7 @@ code --install-extension bmewburn.vscode-intelephense-client
 code --install-extension higoka.php-cs-fixer
 code --install-extension ikappas.phpcs
 code --install-extension esbenp.prettier-vscode
+code --install-extension whatwedo.twig
 code --install-extension vscodevim.vim
 code --install-extension ashhitch.vs-code-css-comments
 code --install-extension jpoissonnier.vscode-styled-components
