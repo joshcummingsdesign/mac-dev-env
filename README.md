@@ -1,12 +1,8 @@
 # macOS Development Environment
 
-### Docker Desktop
-
-* [Install Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
-
 ### Homebrew
 
-* [Install Homebrew](https://brew.sh)
+- [Install Homebrew](https://brew.sh)
 
 Install dependencies
 
@@ -38,7 +34,7 @@ Configure Git settings
 
 ### Zsh
 
-* [.zshrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.zshrc)
+- [.zshrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.zshrc)
 
 Go to `System Preferences > Users & Groups`
 
@@ -50,7 +46,7 @@ Change `Login shell` to `/usr/local/bin/zsh`
 
 #### Theme
 
-* [Better Solarized Dark](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
+- [Better Solarized Dark](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
 
 Go to `Preferences > Profiles > Colors`
 
@@ -66,9 +62,9 @@ Uncheck the box that says "Italic text"
 
 ### Vim
 
-* [.vimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vimrc)
+- [.vimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vimrc)
 
-* [Install vim-plug](https://github.com/junegunn/vim-plug)
+- [Install vim-plug](https://github.com/junegunn/vim-plug)
 
 Symlink .vimrc for Neovim
 
@@ -78,9 +74,9 @@ Run `:PlugInstall` in both Vim and Neovim to fetch and install all plugins
 
 ### tmux
 
-* [.tmux.conf](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.tmux.conf)
+- [.tmux.conf](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.tmux.conf)
 
-* [Install tpm](https://github.com/tmux-plugins/tpm)
+- [Install tpm](https://github.com/tmux-plugins/tpm)
 
 Press `prefix + I` in a tmux session to fetch and install all plugins
 
@@ -98,8 +94,16 @@ Disable the built-in VSCode PHP Language Features.
 
 #### Settings
 
-* [settings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/settings.json)
+- [settings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/settings.json)
 
 #### Keybindings
 
-* [keybindings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/keybindings.json)
+- [keybindings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/keybindings.json)
+
+### PHPStorm
+
+- [.ideavimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.ideavimrc)
+
+Install the `phpstorm` command
+
+    $ cp scripts/phpstorm.sh /usr/local/bin/phpstorm

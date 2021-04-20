@@ -99,11 +99,8 @@ alias dstroy="find . -name '.DS_Store' -type f -delete"
 alias ta="tmux attach-session -t"
 alias tl="tmux list-sessions"
 
-# mysql
-alias mysql='echo -ne "\e[2 q" && mysql'
-
 # wp-cli
-alias wpmysql='echo -ne "\e[2 q" && wp db cli'
+alias wpmysql='echo -ne "\e[5 q" && wp db cli'
 
 
 # ------------ 3rd Party ------------

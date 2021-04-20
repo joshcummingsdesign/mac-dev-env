@@ -1,0 +1,6 @@
+source ~/.vimrc
+:map <leader>bn <Action>(NextTab)
+:map <leader>bp <Action>(PreviousTab)
+:map <leader>gh <Action>(QuickJavaDoc)
+:map gh <Action>(ShowErrorDescription)
+:map <leader>gs <Action>(ActivateVersionControlToolWindow)
