@@ -100,7 +100,7 @@ alias ta="tmux attach-session -t"
 alias tl="tmux list-sessions"
 
 # wp-cli
-alias wpmysql='echo -ne "\e[5 q" && wp db cli'
+alias wpmysql='echo -ne "\e[5 q" && lando wp db cli'
 
 
 # ------------ 3rd Party ------------
