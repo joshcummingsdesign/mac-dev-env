@@ -91,9 +91,10 @@ bindkey -M vicmd "v" edit-command-line
 # File system
 alias l="ls -lah"
 alias grep='grep --color'
-
 # Remove all .DS_Store files
 alias dstroy="find . -name '.DS_Store' -type f -delete"
+# Remove all .php_cs.cache files
+alias pstroy="find . -name '.php_cs.cache' -type f -delete"
 
 # tmux
 alias ta="tmux attach-session -t"
