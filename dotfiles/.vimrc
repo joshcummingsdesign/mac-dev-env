@@ -29,7 +29,9 @@ call plug#end()
 
 
 " ------------ Theme ------------
-set termguicolors " Use 24-bit (true-color) mode
+if has ('termguicolors')
+  set termguicolors " Use 24-bit (true-color) mode
+endif
 syntax on
 set background=dark
 colorscheme solarized8
