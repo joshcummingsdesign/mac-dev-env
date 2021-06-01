@@ -6,6 +6,7 @@ set bell-style none
 # Vi mode
 set editing-mode vi
 set show-mode-in-prompt on
+"fd": vi-movement-mode
 
 # Insert mode
 set keymap vi-insert
