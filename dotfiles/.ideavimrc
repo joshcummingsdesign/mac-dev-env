@@ -4,3 +4,5 @@ source ~/.vimrc
 :map gh <Action>(QuickJavaDoc)
 :map <leader>gh <Action>(ShowErrorDescription)
 :map <leader>gs <Action>(ActivateVersionControlToolWindow)
+nmap gqq :action com.andrewbrookins.idea.wrap.WrapAction<CR>
+vmap gq :action com.andrewbrookins.idea.wrap.WrapAction<CR>
