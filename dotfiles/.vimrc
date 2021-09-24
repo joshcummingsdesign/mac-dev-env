@@ -20,11 +20,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-scripts/ReplaceWithRegister'
 
-" Neovim
-if has ('nvim')
-  Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-endif
-
 call plug#end()
 
 
@@ -75,11 +70,6 @@ let g:user_emmet_leader_key='<C-H>'
 
 " -- Sneak --
 highlight link Sneak None
-
-" -- Firenvim --
-let s:fc = {}
-let g:firenvim_config = { 'localSettings': s:fc }
-let s:fc['.*'] = { 'takeover': 'never' }
 
 
 " ------------ General Config ------------
