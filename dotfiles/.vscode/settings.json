@@ -1,5 +1,4 @@
 {
-  "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Better Solarized Dark",
@@ -52,6 +51,12 @@
   "php-cs-fixer.onSave": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[php]": {
+    "editor.formatOnSave": false
+  },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -973,3 +978,4 @@
     ]
   }
 }
+
