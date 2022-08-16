@@ -102,9 +102,9 @@ alias tl="tmux list-sessions"
 
 # wp-cli
 alias wpmysql='echo -ne "\e[5 q" && lando wp db cli'
-#
+
 # Vocalize
-alias vocalize='~/Contrib/vocialize/scripts/start.sh'
+alias vocalize='~/Contrib/vocalize/scripts/start.sh'
 
 
 # ------------ 3rd Party ------------
