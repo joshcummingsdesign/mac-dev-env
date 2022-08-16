@@ -256,4 +256,8 @@
     "key": "ctrl+shift+w",
     "command": "workbench.action.toggleMaximizedPanel"
   }
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
+  }
 ]
