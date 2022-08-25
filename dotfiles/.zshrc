@@ -106,6 +106,9 @@ alias wpmysql='echo -ne "\e[5 q" && lando wp db cli'
 # Vocalize
 alias vocalize='~/Contrib/vocalize/scripts/start.sh'
 
+# Laravel
+alias sail='bash vendor/bin/sail'
+alias artisan='lando php artisan'
 
 # ------------ 3rd Party ------------
 # gnu-sed
