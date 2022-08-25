@@ -110,6 +110,7 @@ alias vocalize='~/Contrib/vocalize/scripts/start.sh'
 alias sail='bash vendor/bin/sail'
 alias artisan='lando php artisan'
 
+
 # ------------ 3rd Party ------------
 # gnu-sed
 PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
