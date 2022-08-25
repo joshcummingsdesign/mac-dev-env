@@ -107,3 +107,10 @@ Disable the built-in VSCode PHP Language Features.
 Install the `phpstorm` command
 
     $ cp scripts/phpstorm.sh /usr/local/bin/phpstorm
+
+### Chrome
+
+Chrome extensions
+
+- Vimium
+- Firenvim
