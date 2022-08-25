@@ -104,6 +104,7 @@ alias tl="tmux list-sessions"
 alias wpmysql='echo -ne "\e[5 q" && lando wp db cli'
 
 # Vocalize
+alias goodmorning="~/Contrib/mac-dev-env/scripts/goodmorning.sh"
 alias vocalize='~/Contrib/vocalize/scripts/start.sh'
 
 # Laravel
