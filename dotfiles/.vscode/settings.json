@@ -69,8 +69,6 @@
   "vim.easymotionMarkerForegroundColorOneChar": "#FCF6E4",
   "vim.easymotionMarkerForegroundColorTwoCharFirst": "#FCF6E4",
   "vim.easymotionMarkerForegroundColorTwoCharSecond": "#FCF6E4",
-  "vim.sneak": true,
-  "vim.sneakUseIgnorecaseAndSmartcase": true,
   "vim.leader": "<space>",
   "vim.visualModeKeyBindings": [
     {
