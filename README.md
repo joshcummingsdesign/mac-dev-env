@@ -114,3 +114,7 @@ Chrome extensions
 
 - Vimium
 - Firenvim
+
+### Window Tiling Manager
+
+- Divvy

@@ -1,5 +1,4 @@
 tap "homebrew/cask-fonts"
-cask "amethyst"
 cask "font-fira-code"
 cask "iterm2"
 cask "lando"
