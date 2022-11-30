@@ -116,6 +116,9 @@ alias artisan='lando php artisan'
 # gnu-sed
 PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 
+#findutils
+PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
+
 # asdf
 . /usr/local/opt/asdf/asdf.sh
 . /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
