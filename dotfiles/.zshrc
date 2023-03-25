@@ -10,7 +10,7 @@ fi;
 
 
 # ------------ Plugins ------------
-export ZPLUG_HOME=/usr/local/opt/zplug
+export ZPLUG_HOME=$HOMEBREW_PREFIX/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
 zplug "bhilburn/powerlevel9k", use:powerlevel9k.zsh-theme
@@ -103,10 +103,6 @@ alias tl="tmux list-sessions"
 # wp-cli
 alias wpmysql='echo -ne "\e[5 q" && lando wp db cli'
 
-# Vocalize
-alias goodmorning="~/Contrib/mac-dev-env/scripts/goodmorning.sh"
-alias vocalize='~/Contrib/vocalize/scripts/start.sh'
-
 # Laravel
 alias sail='bash vendor/bin/sail'
 alias artisan='lando php artisan'
@@ -114,14 +110,13 @@ alias artisan='lando php artisan'
 
 # ------------ 3rd Party ------------
 # gnu-sed
-PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+PATH="$HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin:$PATH"
 
 #findutils
-PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"
+PATH="$HOMEBREW_PREFIX/opt/findutils/libexec/gnubin:$PATH"
 
 # asdf
-. /usr/local/opt/asdf/asdf.sh
-. /usr/local/opt/asdf/etc/bash_completion.d/asdf.bash
+. $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.sh
 
 # homebrew
 export PATH="/usr/local/sbin:$PATH"
