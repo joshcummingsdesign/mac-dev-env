@@ -42,17 +42,17 @@ Configure Git settings
 
 - [Better Solarized Dark](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
 
-Go to `Preferences > Profiles > Colors`
+Go to `Preferences > Profiles > Colors`.
 
-Import and select the theme under `Color Presets`
+Import and select the theme under `Color Presets`.
 
 #### Font
 
 Go to `Preferences > Profiles > Text` and change `Font` to "Fira Code".
 
-Check the box that says "Use ligatures"
+Check the box that says "Use ligatures".
 
-Uncheck the box that says "Italic text"
+Uncheck the box that says "Italic text".
 
 ### Vim
 
@@ -64,7 +64,7 @@ Symlink .vimrc for Neovim
 
     mkdir -p ~/.config/nvim && ln -s ~/.vimrc ~/.config/nvim/init.vim
 
-Run `:PlugInstall` in both Vim and Neovim to fetch and install all plugins
+Run `:PlugInstall` in both Vim and Neovim to fetch and install all plugins.
 
 ### tmux
 
@@ -72,7 +72,7 @@ Run `:PlugInstall` in both Vim and Neovim to fetch and install all plugins
 
 - [Install tpm](https://github.com/tmux-plugins/tpm)
 
-Press `prefix + I` in a tmux session to fetch and install all plugins
+Press `prefix + I` in a tmux session to fetch and install all plugins.
 
 ### asdf-vm
 
@@ -107,6 +107,10 @@ Install the `phpstorm` command
 Enable key repeat on macOS
 
     defaults write -g ApplePressAndHoldEnabled -bool false
+
+Go to `Preferences > Editor > Font` and change `Font` to "Fira Code".
+
+Check the box that says "Enable ligatures".
 
 ### Chrome
 
