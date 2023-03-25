@@ -18,7 +18,7 @@ Add the following to your `~/.ssh/config`
 
 ```sh
 Host *
-    UseKeychain yes
+  UseKeychain yes
 ```
 
 ### Git
