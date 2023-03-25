@@ -61,9 +61,9 @@ let NERDTreeShowHidden = 1
 
 " -- EasyMotion --
 let g:EasyMotion_do_shade = 0
-hi EasyMotionTarget ctermbg=red ctermfg=white
-hi EasyMotionTarget2First ctermbg=red ctermfg=white
-hi EasyMotionTarget2Second ctermbg=red ctermfg=white
+hi EasyMotionTarget ctermbg=Blue ctermfg=White
+hi EasyMotionTarget2First ctermbg=Blue ctermfg=White
+hi EasyMotionTarget2Second ctermbg=Blue ctermfg=White
 
 " -- Emmet --
 let g:user_emmet_leader_key='<C-H>'
@@ -128,9 +128,9 @@ autocmd BufWritePre * %s/\s\+$//e " Remove trailing whitespace on save
 " Set cursor to line in insert mode
 let &t_SI = "\e[5 q"
 " Set cursor to block in nomral mode
-let &t_EI = "\e[2 q"
+let &t_EI = "\e[1 q"
 " Set cursor to block on vim start
-autocmd VimEnter * silent exec "! echo -ne '\e[2 q'"
+autocmd VimEnter * silent exec "! echo -ne '\e[1 q'"
 
 
 " ------------ Key Bindings ------------

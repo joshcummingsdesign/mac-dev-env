@@ -50,7 +50,7 @@ DEFAULT_USER=`whoami`
 
 # Set cursor to line when in vi insert mode
 cursor-block () {
-  echo -ne "\e[2 q"
+  echo -ne "\e[1 q"
 }
 cursor-line () {
   echo -ne '\e[5 q'
