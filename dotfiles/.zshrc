@@ -99,6 +99,7 @@ alias pstroy="find . -type f -name '.php_cs.cache' -delete -o -name '.php-cs-fix
 # tmux
 alias ta="tmux attach-session -t"
 alias tl="tmux list-sessions"
+alias tk="tmux kill-session -t"
 
 # wp-cli
 alias wpmysql='echo -ne "\e[5 q" && lando wp db cli'
