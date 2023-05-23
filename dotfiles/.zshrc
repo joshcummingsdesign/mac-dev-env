@@ -108,6 +108,9 @@ alias wpmysql='echo -ne "\e[5 q" && lando wp db cli'
 alias sail='bash vendor/bin/sail'
 alias artisan='lando php artisan'
 
+# Docker
+alias ds='docker ps'
+
 
 # ------------ 3rd Party ------------
 # gnu-sed
