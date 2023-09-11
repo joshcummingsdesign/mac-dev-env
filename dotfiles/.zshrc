@@ -107,5 +107,8 @@ alias ds='docker ps'
 # gnu-sed
 PATH="$HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin:$PATH"
 
-#findutils
+# findutils
 PATH="$HOMEBREW_PREFIX/opt/findutils/libexec/gnubin:$PATH"
+
+# asdf
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
