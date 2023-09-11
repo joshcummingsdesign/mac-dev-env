@@ -60,11 +60,7 @@ Uncheck the box that says "Italic text".
 
 - [Install vim-plug](https://github.com/junegunn/vim-plug)
 
-Symlink .vimrc for Neovim
-
-    mkdir -p ~/.config/nvim && ln -s ~/.vimrc ~/.config/nvim/init.vim
-
-Run `:PlugInstall` in both Vim and Neovim to fetch and install all plugins.
+Run `:PlugInstall` in Vim to fetch and install the plugins.
 
 ### tmux
 
@@ -77,10 +73,6 @@ Press `prefix + I` in a tmux session to fetch and install all plugins.
 ### asdf-vm
 
 Included is [asdf-vm](https://asdf-vm.com/#/core-manage-plugins), which you can use to manage multiple runtime versions of Python, Ruby, etc.
-
-### nvm
-
-Included is [nvm](https://github.com/nvm-sh/nvm), which you can use to manage multiple runtime versions of Node.js.
 
 ### Visual Studio Code
 
@@ -99,25 +91,3 @@ Enable key repeat on macOS
 #### Keybindings
 
 - [keybindings.json](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.vscode/keybindings.json)
-
-### PHPStorm
-
-- [.ideavimrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.ideavimrc)
-
-Install the `phpstorm` command
-
-    cp scripts/phpstorm.sh /usr/local/bin/phpstorm
-
-Enable key repeat on macOS
-
-    defaults write -g ApplePressAndHoldEnabled -bool false
-
-Go to `Preferences > Editor > Font` and change `Font` to "Fira Code".
-
-Check the box that says "Enable ligatures".
-
-### Chrome
-
-Chrome extensions
-
-- Vimium

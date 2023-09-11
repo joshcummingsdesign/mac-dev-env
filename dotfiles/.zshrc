@@ -93,20 +93,11 @@ alias l="ls -lah"
 alias grep='grep --color'
 # Remove all .DS_Store files
 alias dstroy="find . -type f -name '.DS_Store' -delete"
-# Remove all .php_cs.cache files
-alias pstroy="find . -type f -name '.php_cs.cache' -delete -o -name '.php-cs-fixer.cache' -delete"
 
 # tmux
 alias ta="tmux attach-session -t"
 alias tl="tmux list-sessions"
 alias tk="tmux kill-session -t"
-
-# wp-cli
-alias wpmysql='echo -ne "\e[5 q" && lando wp db cli'
-
-# Laravel
-alias sail='bash vendor/bin/sail'
-alias artisan='lando php artisan'
 
 # Docker
 alias ds='docker ps'
@@ -118,14 +109,3 @@ PATH="$HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin:$PATH"
 
 #findutils
 PATH="$HOMEBREW_PREFIX/opt/findutils/libexec/gnubin:$PATH"
-
-# asdf
-. $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.sh
-
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
-# homebrew
-export PATH="/usr/local/sbin:$PATH"
