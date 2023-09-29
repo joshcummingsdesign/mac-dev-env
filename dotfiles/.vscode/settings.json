@@ -847,5 +847,6 @@
       ]
     }
   ],
+  "editor.gotoLocation.multipleDefinitions": "goto",
   "explorer.confirmDelete": false
 }
