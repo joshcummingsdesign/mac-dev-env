@@ -112,3 +112,7 @@ PATH="$HOMEBREW_PREFIX/opt/findutils/libexec/gnubin:$PATH"
 
 # asdf
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+# Go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
