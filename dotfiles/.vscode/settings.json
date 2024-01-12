@@ -1,5 +1,4 @@
 {
-  "workbench.activityBar.visible": false,
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Better Solarized Dark",
   "workbench.colorCustomizations": {
@@ -15,8 +14,11 @@
   "zenMode.hideStatusBar": false,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
+    "editor.defaultFormatter": "ms-python.autopep8",
     "editor.formatOnType": true
   },
   "emmet.includeLanguages": {
@@ -848,5 +850,7 @@
     }
   ],
   "editor.gotoLocation.multipleDefinitions": "goto",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "workbench.activityBar.location": "hidden",
+  "go.toolsManagement.autoUpdate": true
 }
