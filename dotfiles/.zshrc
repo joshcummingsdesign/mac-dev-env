@@ -91,6 +91,8 @@ bindkey -M vicmd "v" edit-command-line
 # File system
 alias l="ls -lah"
 alias grep='grep --color'
+alias cdp='cd ~/Projects'
+alias cdc='cd ~/Contrib'
 # Remove all .DS_Store files
 alias dstroy="find . -type f -name '.DS_Store' -delete"
 
