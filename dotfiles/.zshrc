@@ -112,12 +112,12 @@ PATH="$HOMEBREW_PREFIX/opt/gnu-sed/libexec/gnubin:$PATH"
 # findutils
 PATH="$HOMEBREW_PREFIX/opt/findutils/libexec/gnubin:$PATH"
 
+# libpq
+PATH="$HOMEBREW_PREFIX/opt/libpq/bin:$PATH"
+
 # asdf
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 # Go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
-
-# libpq
-export PATH="/usr/local/opt/libpq/bin:$PATH"
