@@ -118,3 +118,6 @@ PATH="$HOMEBREW_PREFIX/opt/findutils/libexec/gnubin:$PATH"
 # Go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+# libpq
+export PATH="/usr/local/opt/libpq/bin:$PATH"
