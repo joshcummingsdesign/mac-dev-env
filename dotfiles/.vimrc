@@ -7,7 +7,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'leafgarland/typescript-vim'
-Plug 'lifepillar/vim-solarized8'
+Plug 'tomasiser/vim-code-dark'
 Plug 'mattn/emmet-vim'
 Plug 'mxw/vim-jsx'
 Plug 'scrooloose/nerdtree'
@@ -29,12 +29,12 @@ if has ('termguicolors')
 endif
 syntax on
 set background=dark
-colorscheme solarized8
+colorscheme codedark
 
 
 " ------------ Plugin Settings ------------
 " -- Airline --
-let g:airline_theme='base16_solarized'
+let g:airline_theme='term'
 let g:airline_powerline_fonts = 1
 
 " -- ctrlp --
