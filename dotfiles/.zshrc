@@ -93,6 +93,7 @@ alias l="ls -lah"
 alias grep='grep --color'
 alias cdp='cd ~/Projects'
 alias cdc='cd ~/Contrib'
+
 # Remove all .DS_Store files
 alias dstroy="find . -type f -name '.DS_Store' -delete"
 
@@ -104,6 +105,8 @@ alias tk="tmux kill-session -t"
 # Docker
 alias ds='docker ps'
 
+# Vocalize
+alias vocalize='cd ~/Contrib/vocalize && make start'
 
 # ------------ 3rd Party ------------
 # gnu-sed

@@ -36,23 +36,17 @@ Configure Git settings
 
 - [.zshrc](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/dotfiles/.zshrc)
 
-### iTerm2
+### Warp
 
 #### Theme
 
-- [Better Solarized Dark](https://github.com/joshcummingsdesign/mac-dev-env/tree/master/themes)
-
-Go to `Preferences > Profiles > Colors`.
-
-Import and select the theme under `Color Presets`.
+- [Dark Modern](https://github.com/juliabresolin/warp-theme-dark-modern)
 
 #### Font
 
-Go to `Preferences > Profiles > Text` and change `Font` to "Fira Code".
+Go to `Settings > Appearance > Text` and change `Font` to "Fira Code".
 
-Check the box that says "Use ligatures".
-
-Uncheck the box that says "Italic text".
+TODO: Enable ligature support when Warp provides it.
 
 ### Vim
 

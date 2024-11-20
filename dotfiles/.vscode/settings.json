@@ -1,6 +1,5 @@
 {
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Better Solarized Dark",
   "workbench.colorCustomizations": {
     "editorCursor.foreground": "#96A0A1",
     "editorCursor.background": "#000000"

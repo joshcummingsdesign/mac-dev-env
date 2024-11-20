@@ -4,7 +4,6 @@
 code --install-extension dunstontc.viml
 code --install-extension editorconfig.editorconfig
 code --install-extension esbenp.prettier-vscode
-code --install-extension ginfuru.ginfuru-better-solarized-dark-theme
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension mishkinf.goto-next-previous-member
