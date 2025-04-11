@@ -17,7 +17,7 @@
     "editor.defaultFormatter": "golang.go"
   },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnType": true
   },
   "emmet.includeLanguages": {
@@ -851,5 +851,7 @@
   "editor.gotoLocation.multipleDefinitions": "goto",
   "explorer.confirmDelete": false,
   "workbench.activityBar.location": "hidden",
-  "go.toolsManagement.autoUpdate": true
+  "go.toolsManagement.autoUpdate": true,
+  "git.openRepositoryInParentFolders": "always",
+  "editor.accessibilitySupport": "off"
 }
