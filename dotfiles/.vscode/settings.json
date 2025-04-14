@@ -23,6 +23,7 @@
       "source.organizeImports": true
     }
   },
+  "isort.args": ["--profile", "black"],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
