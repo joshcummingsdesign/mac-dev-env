@@ -1,0 +1,7 @@
+[tool.isort]
+skip = ["venv"]
+skip_glob = [
+  "__init__.py",
+  "*/__init__.py",
+  "**/__init__.py"
+]
