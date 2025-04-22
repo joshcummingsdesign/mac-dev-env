@@ -3,6 +3,7 @@
 # Install extensions
 code --install-extension dunstontc.viml
 code --install-extension editorconfig.editorconfig
+code --install-extension enkia.tokyo-night
 code --install-extension esbenp.prettier-vscode
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension kumar-harsh.graphql-for-vscode

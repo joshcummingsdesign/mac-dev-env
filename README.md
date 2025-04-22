@@ -40,7 +40,7 @@ Configure Git settings
 
 #### Theme
 
-- [Dark Modern](https://github.com/juliabresolin/warp-theme-dark-modern)
+- [Tokyo Night](https://github.com/bart-krakowski/warp-tokyo-night)
 
 #### Font
 

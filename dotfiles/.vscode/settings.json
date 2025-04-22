@@ -20,7 +20,7 @@
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     }
   },
   "isort.args": ["--profile", "black"],
@@ -31,10 +31,10 @@
   "vim.neovimPath": "/opt/homebrew/bin/nvim",
   "vim.replaceWithRegister": true,
   "vim.easymotion": true,
-  "vim.easymotionMarkerBackgroundColor": "#388097",
-  "vim.easymotionMarkerForegroundColorOneChar": "#FCF6E4",
-  "vim.easymotionMarkerForegroundColorTwoCharFirst": "#FCF6E4",
-  "vim.easymotionMarkerForegroundColorTwoCharSecond": "#FCF6E4",
+  "vim.easymotionMarkerBackgroundColor": "#1a1b26",
+  "vim.easymotionMarkerForegroundColorOneChar": "#7dcfff",
+  "vim.easymotionMarkerForegroundColorTwoCharFirst": "#7dcfff",
+  "vim.easymotionMarkerForegroundColorTwoCharSecond": "#7dcfff",
   "vim.leader": "<space>",
   "vim.visualModeKeyBindings": [
     {
@@ -857,5 +857,10 @@
   "workbench.activityBar.location": "hidden",
   "go.toolsManagement.autoUpdate": true,
   "git.openRepositoryInParentFolders": "always",
-  "editor.accessibilitySupport": "off"
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.accessibilitySupport": "off",
+  "mermaid-editor.generate.quality": 1,
+  "mermaid-editor.generate.scale": 20,
+  "mermaid-editor.generate.type": "png",
+  "workbench.colorTheme": "Tokyo Night"
 }
