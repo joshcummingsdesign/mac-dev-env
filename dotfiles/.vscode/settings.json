@@ -1,9 +1,10 @@
 {
   "workbench.startupEditor": "none",
   "workbench.colorCustomizations": {
-    "editorCursor.foreground": "#96A0A1",
-    "editorCursor.background": "#000000"
+    "editorCursor.foreground": "#7aa2f7",
+    "editorCursor.background": "#1a1b26"
   },
+  "editor.cursorBlinking": "solid",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,

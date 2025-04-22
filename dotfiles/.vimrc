@@ -7,7 +7,7 @@ Plug 'easymotion/vim-easymotion'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'leafgarland/typescript-vim'
-Plug 'tomasiser/vim-code-dark'
+Plug 'ghifarit53/tokyonight-vim'
 Plug 'mattn/emmet-vim'
 Plug 'mxw/vim-jsx'
 Plug 'scrooloose/nerdtree'
@@ -28,13 +28,13 @@ if has ('termguicolors')
   set termguicolors " Use 24-bit (true-color) mode
 endif
 syntax on
-set background=dark
-colorscheme codedark
+let g:tokyonight_style = 'night'
+colorscheme tokyonight
 
 
 " ------------ Plugin Settings ------------
 " -- Airline --
-let g:airline_theme='term'
+let g:airline_theme = 'tokyonight'
 let g:airline_powerline_fonts = 1
 
 " -- ctrlp --
